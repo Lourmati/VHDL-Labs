@@ -1,0 +1,88 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1C358122156DF599",
+      "device": "xc7a100tcsg324-1",
+      "name": "DIV_4_REST",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ATAD_SPLIT_4_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "S": {
+        "direction": "O",
+        "left": "3",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "4",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "ATAD_SPLIT_4_0": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_4:1.0",
+        "xci_name": "DIV_4_REST_ATAD_SPLIT_4_0_0"
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "DIV_4_REST_xlconcat_0_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "4"
+          }
+        }
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "ATAD_SPLIT_4_0/VIN"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "S"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT0",
+          "xlconcat_0/In2"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT1": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT1",
+          "xlconcat_0/In3"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT2",
+          "xlconcat_0/In0"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT3",
+          "xlconcat_0/In1"
+        ]
+      }
+    }
+  }
+}

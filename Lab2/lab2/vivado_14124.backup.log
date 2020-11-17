@@ -1,0 +1,1356 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Oct 12 12:10:33 2020
+# Process ID: 14124
+# Current directory: C:/Users/Adam/Downloads/INF1500/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17244 C:\Users\Adam\Downloads\INF1500\lab2\lab2.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/lab2/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/lab2/lab2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CMP_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1014.875 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'UAL_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UAL_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_inv_0_0/sim/MUX_4B_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_0_0/sim/MUX_4B_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_1_0/sim/MUX_4B_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_2_0/sim/MUX_4B_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_3_0/sim/MUX_4B_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_4_0/sim/MUX_4B_xup_and2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_5_0/sim/MUX_4B_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_6_0/sim/MUX_4B_xup_and2_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_7_0/sim/MUX_4B_xup_and2_7_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_7_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_0_0/sim/MUX_4B_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_1_0/sim/MUX_4B_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_2_0/sim/MUX_4B_xup_or2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_3_0/sim/MUX_4B_xup_or2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xlconcat_0_1/sim/MUX_4B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_xup_xor2_0_0/sim/DIV_4_4B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_4B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_xlconcat_0_1/sim/DIV_4_4B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_4B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xlconcat_0_0/sim/CMP_4B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xnor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_0_0/sim/CMP_4B_xup_xnor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_1_0/sim/CMP_4B_xup_xnor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_2_0/sim/CMP_4B_xup_xnor2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_3_0/sim/CMP_4B_xup_xnor2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_3_0
+"xvhdl --incr --relax -prj UAL_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_ATAD_SPLIT_4_0_0/sim/MUX_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_ATAD_SPLIT_4_1_0/sim/MUX_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ipshared/bf5e/sim/MUX_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_ATAD_SPLIT_4_0_0/sim/DIV_4_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ipshared/8d83/sim/DIV_4_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_ATAD_SPLIT_4_0_0/sim/CMP_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_ATAD_SPLIT_4_1_0/sim/CMP_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ipshared/c6a5/sim/CMP_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.875 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+"xelab -wto d3506bb532bb49bb8d37b4236dcc8d15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UAL_wrapper_behav xil_defaultlib.UAL_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d3506bb532bb49bb8d37b4236dcc8d15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UAL_wrapper_behav xil_defaultlib.UAL_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "UAL_wrapper_behav -key {Behavioral:sim_1:Functional:UAL_wrapper} -tclbatch {UAL_wrapper.tcl} -protoinst "protoinst_files/MUX_4B.protoinst" -protoinst "protoinst_files/CMP_4B.protoinst" -protoinst "protoinst_files/DIV_4_4B.protoinst" -protoinst "protoinst_files/UAL.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/CMP_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/UAL.protoinst
+Time resolution is 1 ps
+source UAL_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'UAL_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1014.875 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1014.875 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'UAL_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj UAL_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_inv_0_0/sim/MUX_4B_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_0_0/sim/MUX_4B_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_1_0/sim/MUX_4B_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_2_0/sim/MUX_4B_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_3_0/sim/MUX_4B_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_4_0/sim/MUX_4B_xup_and2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_5_0/sim/MUX_4B_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_6_0/sim/MUX_4B_xup_and2_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_and2_7_0/sim/MUX_4B_xup_and2_7_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_7_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_or2_0_0/sim/MUX_4B_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_or2_1_0/sim/MUX_4B_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_or2_2_0/sim/MUX_4B_xup_or2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xup_or2_3_0/sim/MUX_4B_xup_or2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_xlconcat_0_1/sim/MUX_4B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xlconcat_0_0/sim/CMP_4B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xnor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_0_0/sim/CMP_4B_xup_xnor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_1_0/sim/CMP_4B_xup_xnor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_2_0/sim/CMP_4B_xup_xnor2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_3_0/sim/CMP_4B_xup_xnor2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ip/DIV_4_4B_xup_xor2_0_0/sim/DIV_4_4B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_4B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ip/DIV_4_4B_xlconcat_0_1/sim/DIV_4_4B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_4B_xlconcat_0_1
+"xvhdl --incr --relax -prj UAL_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_ATAD_SPLIT_4_0_0/sim/MUX_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_ATAD_SPLIT_4_1_0/sim/MUX_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/sim/MUX_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_ATAD_SPLIT_4_0_0/sim/CMP_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_ATAD_SPLIT_4_1_0/sim/CMP_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/sim/CMP_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ip/DIV_4_4B_ATAD_SPLIT_4_0_0/sim/DIV_4_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/sim/DIV_4_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.875 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+"xelab -wto d3506bb532bb49bb8d37b4236dcc8d15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UAL_wrapper_behav xil_defaultlib.UAL_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d3506bb532bb49bb8d37b4236dcc8d15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot UAL_wrapper_behav xil_defaultlib.UAL_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "UAL_wrapper_behav -key {Behavioral:sim_1:Functional:UAL_wrapper} -tclbatch {UAL_wrapper.tcl} -protoinst "protoinst_files/MUX_4B.protoinst" -protoinst "protoinst_files/CMP_4B.protoinst" -protoinst "protoinst_files/DIV_4_4B.protoinst" -protoinst "protoinst_files/UAL.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/CMP_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/UAL.protoinst
+Time resolution is 1 ps
+source UAL_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'UAL_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1014.875 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_bd_design {C:/Users/Adam/Downloads/INF1500/lab2/lab2.srcs/sources_1/bd/DIV_4_4B/DIV_4_4B.bd}
+Adding component instance block -- xilinx.com:user:ATAD_SPLIT_4:1.0 - ATAD_SPLIT_4_0
+Adding component instance block -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Successfully read diagram <DIV_4_4B> from BD file <C:/Users/Adam/Downloads/INF1500/lab2/lab2.srcs/sources_1/bd/DIV_4_4B/DIV_4_4B.bd>
+close_bd_design [get_bd_designs DIV_4_4B]
+Wrote  : <C:/Users/Adam/Downloads/INF1500/lab2/lab2.srcs/sources_1/bd/DIV_4_4B/ui/bd_d90f7307.ui> 
+set_property top DIV_4_4B_wrapper [current_fileset]
+set_property top DIV_4_4B_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'DIV_4_4B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj DIV_4_4B_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_inv_0_0/sim/MUX_4B_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_0_0/sim/MUX_4B_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_1_0/sim/MUX_4B_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_2_0/sim/MUX_4B_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_3_0/sim/MUX_4B_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_4_0/sim/MUX_4B_xup_and2_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_5_0/sim/MUX_4B_xup_and2_5_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_5_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_6_0/sim/MUX_4B_xup_and2_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_and2_7_0/sim/MUX_4B_xup_and2_7_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_and2_7_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_0_0/sim/MUX_4B_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_1_0/sim/MUX_4B_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_2_0/sim/MUX_4B_xup_or2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xup_or2_3_0/sim/MUX_4B_xup_or2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xup_or2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_xlconcat_0_1/sim/MUX_4B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_xup_xor2_0_0/sim/DIV_4_4B_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_4B_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_xlconcat_0_1/sim/DIV_4_4B_xlconcat_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_4B_xlconcat_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xlconcat_0_0/sim/CMP_4B_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xnor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_0_0/sim/CMP_4B_xup_xnor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_1_0/sim/CMP_4B_xup_xnor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_2_0/sim/CMP_4B_xup_xnor2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_xup_xnor2_3_0/sim/CMP_4B_xup_xnor2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CMP_4B_xup_xnor2_3_0
+"xvhdl --incr --relax -prj DIV_4_4B_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_ATAD_SPLIT_4_0_0/sim/MUX_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_ATAD_SPLIT_4_1_0/sim/MUX_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ipshared/bf5e/sim/MUX_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_ATAD_SPLIT_4_0_0/sim/DIV_4_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ipshared/8d83/sim/DIV_4_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_ATAD_SPLIT_4_0_0/sim/CMP_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_ATAD_SPLIT_4_1_0/sim/CMP_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/UAL/ipshared/c6a5/sim/CMP_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.875 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+"xelab -wto d3506bb532bb49bb8d37b4236dcc8d15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot DIV_4_4B_wrapper_behav xil_defaultlib.DIV_4_4B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d3506bb532bb49bb8d37b4236dcc8d15 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot DIV_4_4B_wrapper_behav xil_defaultlib.DIV_4_4B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DIV_4_4B_wrapper_behav -key {Behavioral:sim_1:Functional:DIV_4_4B_wrapper} -tclbatch {DIV_4_4B_wrapper.tcl} -protoinst "protoinst_files/MUX_4B.protoinst" -protoinst "protoinst_files/CMP_4B.protoinst" -protoinst "protoinst_files/DIV_4_4B.protoinst" -protoinst "protoinst_files/UAL.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_4B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/MUX_4B.protoinst for the following reason(s):
+There are no instances of module "MUX_4B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/CMP_4B.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/CMP_4B.protoinst for the following reason(s):
+There are no instances of module "CMP_4B" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/UAL.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/UAL.protoinst for the following reason(s):
+There are no instances of module "UAL" in the design.
+
+Time resolution is 1 ps
+source DIV_4_4B_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DIV_4_4B_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1014.875 ; gain = 0.000
+add_force {/DIV_4_4B_wrapper/a[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/DIV_4_4B_wrapper/a[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/DIV_4_4B_wrapper/a[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/DIV_4_4B_wrapper/a[3]} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+remove_forces { {/DIV_4_4B_wrapper/a} {/DIV_4_4B_wrapper/s} }
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 1 us  Iteration: 0
+ERROR: unknown error occurred
+The simulator has terminated in an unexpected manner with exit code 1.  Please review the simulation log (xsim.log) for details.
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+ERROR: [Vivado 12-106] *** Exception: ui.utils.e: ui.frmwork.CommandFailedException: Unknown exception occurred ui.frmwork.CommandFailedException: Unknown exception occurred
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_getTreeWindowData(Native Method)
+	at ui.views.N.c.a.a(SourceFile:254)
+	at ui.views.N.i.f.load(SourceFile:217)
+	at ui.views.N.i.p.iZo(SourceFile:148)
+	at ui.views.N.f.d.a(SourceFile:241)
+	at ui.frmwork.b.l.d(SourceFile:42)
+	at ui.frmwork.G.i(SourceFile:253)
+	at ui.frmwork.G.fireTclEvent(SourceFile:350)
+	at ui.views.simulator.executive.simulationi.SimulationExecutive_mouseSelectTreeWindowEvent(Native Method)
+	at ui.views.N.c.a.a(SourceFile:818)
+	at ui.views.N.f.c.a(SourceFile:337)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.ad.setVisible(SourceFile:307)
+	at ui.cx.j(SourceFile:134)
+	at ui.cx.k(SourceFile:28)
+	at ui.cz.m(SourceFile:80)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at ui.b.c.g.setVisible(SourceFile:864)
+	at ui.b.c.g.a(SourceFile:1061)
+	at ui.b.c.g.a(SourceFile:910)
+	at ui.b.c.g.ce(SourceFile:882)
+	at ui.b.c.g.showDialog(SourceFile:870)
+	at ui.b.c.aU.showDialog(SourceFile:161)
+	at ui.b.c.A.showDialog(SourceFile:101)
+	at ui.views.R.a.p(SourceFile:65)
+	at ui.views.R.aE.actionPerformed(SourceFile:262)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at ui.utils.swing.b.k.fireActionPerformed(SourceFile:140)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicJideButtonListener.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+	at java.desktop/java.awt.Component.processMouseEvent(Unknown Source)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.Component.processEvent(Unknown Source)
+	at java.desktop/java.awt.Container.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.access$500(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$3.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:88)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+ (See C:/Users/Adam/Downloads/INF1500/lab2/vivado_pid14124.debug)
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 12 13:36:22 2020...

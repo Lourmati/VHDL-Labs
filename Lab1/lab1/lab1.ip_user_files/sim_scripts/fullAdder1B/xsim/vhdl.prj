@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/fullAdder1B/sim/fullAdder1B.vhd" \
+
+nosort

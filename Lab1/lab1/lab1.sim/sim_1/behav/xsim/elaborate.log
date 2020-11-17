@@ -1,0 +1,46 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture fulladder4b_atad_split_4_0_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_0_0 [fulladder4b_atad_split_4_0_0_def...]
+Compiling architecture fulladder4b_atad_split_4_1_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_1_0 [fulladder4b_atad_split_4_1_0_def...]
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_1_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.fullAdder1B_xup_or3_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_1_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder1B [fulladder1b_default]
+Compiling architecture fulladder4b_fulladder1b_0_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_0_0 [fulladder4b_fulladder1b_0_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_1_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_1_0 [fulladder4b_fulladder1b_1_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_2_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_2_0 [fulladder4b_fulladder1b_2_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_3_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_3_0 [fulladder4b_fulladder1b_3_0_defa...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.fullAdder4B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor4
+Compiling module xil_defaultlib.fullAdder4B_xup_nor4_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_1_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_2_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_3_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_4_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder4B [fulladder4b_default]
+Compiling architecture structure of entity xil_defaultlib.fulladder4b_wrapper
+Built simulation snapshot fullAdder4B_wrapper_behav

@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_ATAD_SPLIT_4_0_0/sim/MUX_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/ip/MUX_4B_ATAD_SPLIT_4_1_0/sim/MUX_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/MUX_4B/sim/MUX_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_ATAD_SPLIT_4_0_0/sim/CMP_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_ATAD_SPLIT_4_1_0/sim/CMP_4B_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/CMP_4B/sim/CMP_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CMP_4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/ip/DIV_4_4B_ATAD_SPLIT_4_0_0/sim/DIV_4_4B_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab2/lab2.ip_user_files/bd/DIV_4_4B/sim/DIV_4_4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_4B'

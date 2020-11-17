@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Oct 12 13:36:29 2020
+# Process ID: 1152
+# Current directory: C:/Users/Adam/Downloads/INF1500/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4340 C:\Users\Adam\Downloads\INF1500\lab2\lab2.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/lab2/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/lab2/lab2.xpr
+launch_simulation
+source DIV_4_4B_wrapper.tcl
+add_force {/DIV_4_4B_wrapper/a[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/DIV_4_4B_wrapper/a[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/DIV_4_4B_wrapper/a[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/DIV_4_4B_wrapper/a[3]} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+run 8 ns
+close_sim

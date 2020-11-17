@@ -1,0 +1,57 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.879661",
+   "Default View_TopLeft":"-148,-750",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port SEL -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace portBus s -pg 1 -lvl 6 -x 1020 -y -270 -defaultsOSRD
+preplace portBus a -pg 1 -lvl 0 -x -10 -y -170 -defaultsOSRD
+preplace portBus b -pg 1 -lvl 0 -x -10 -y -500 -defaultsOSRD
+preplace inst ATAD_SPLIT_4_0 -pg 1 -lvl 1 -x 110 -y -500 -defaultsOSRD
+preplace inst ATAD_SPLIT_4_1 -pg 1 -lvl 1 -x 110 -y -170 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 1 -x 110 -y 90 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 2 -x 320 -y -680 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 2 -x 320 -y -560 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 2 -x 320 -y -440 -defaultsOSRD
+preplace inst xup_and2_3 -pg 1 -lvl 2 -x 320 -y -320 -defaultsOSRD
+preplace inst xup_and2_4 -pg 1 -lvl 2 -x 320 -y -200 -defaultsOSRD
+preplace inst xup_and2_5 -pg 1 -lvl 2 -x 320 -y -80 -defaultsOSRD
+preplace inst xup_and2_6 -pg 1 -lvl 2 -x 320 -y 160 -defaultsOSRD
+preplace inst xup_and2_7 -pg 1 -lvl 2 -x 320 -y 40 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 3 -x 540 -y -410 -defaultsOSRD
+preplace inst xup_or2_1 -pg 1 -lvl 3 -x 540 -y -290 -defaultsOSRD
+preplace inst xup_or2_2 -pg 1 -lvl 3 -x 540 -y -170 -defaultsOSRD
+preplace inst xup_or2_3 -pg 1 -lvl 3 -x 540 -y -50 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 5 -x 910 -y -270 -defaultsOSRD
+preplace netloc SEL_1 1 0 2 10 -260 210
+preplace netloc xup_inv_0_y 1 1 1 230 -190n
+preplace netloc ATAD_SPLIT_4_1_VOUT0 1 1 1 210 -210n
+preplace netloc ATAD_SPLIT_4_1_VOUT1 1 1 1 220 -180n
+preplace netloc ATAD_SPLIT_4_1_VOUT2 1 1 1 210 -160n
+preplace netloc ATAD_SPLIT_4_1_VOUT3 1 1 1 200 -140n
+preplace netloc ATAD_SPLIT_4_0_VOUT0 1 1 1 200 -690n
+preplace netloc ATAD_SPLIT_4_0_VOUT1 1 1 1 230 -570n
+preplace netloc ATAD_SPLIT_4_0_VOUT2 1 1 1 230 -490n
+preplace netloc ATAD_SPLIT_4_0_VOUT3 1 1 1 220 -470n
+preplace netloc xup_and2_0_y 1 2 1 450 -680n
+preplace netloc xup_and2_4_y 1 2 1 420 -400n
+preplace netloc xup_and2_1_y 1 2 1 440 -560n
+preplace netloc xup_and2_5_y 1 2 1 440 -280n
+preplace netloc xup_and2_2_y 1 2 1 430 -440n
+preplace netloc xup_and2_7_y 1 2 1 450 -160n
+preplace netloc xup_and2_6_y 1 2 1 460 -40n
+preplace netloc xup_and2_3_y 1 2 1 410 -320n
+preplace netloc xup_or2_0_y 1 3 2 N -410 740
+preplace netloc xup_or2_1_y 1 3 2 N -290 740
+preplace netloc xup_or2_2_y 1 3 2 N -170 740
+preplace netloc xup_or2_3_y 1 3 2 N -50 750
+preplace netloc xlconcat_0_dout 1 5 1 N -270
+preplace netloc a_1 1 0 1 N -170
+preplace netloc b_1 1 0 1 N -500
+levelinfo -pg 1 -10 110 320 540 720 910 1020
+pagesize -pg 1 -db -bbox -sgen -100 -750 1110 230
+"
+}
+

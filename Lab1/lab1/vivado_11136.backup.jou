@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep 29 23:23:47 2020
+# Process ID: 11136
+# Current directory: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab1/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16540 C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab1\lab1\lab1.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab1/lab1/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab1/lab1\vivado.jou
+#-----------------------------------------------------------
+start_guopopen_project C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab1/lab1/lab1.xpupupdate_compile_order -fileset sources_open_bd_design {C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab1/lab1/lab1.srcs/sources_1/bd/fullAdder1B/fullAdder1B.bd}

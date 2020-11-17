@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 17 19:58:38 2020
+# Process ID: 10808
+# Current directory: C:/Users/Adam/Downloads/INF1500/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7824 C:\Users\Adam\Downloads\INF1500\lab2\lab2.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/lab2/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/lab2/lab2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CMP_4B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.504 ; gain = 0.000
+add_files -fileset constrs_1 -norecurse C:/Users/Adam/Downloads/INF1500/labo2.xdc
+launch_runs synth_1 -jobs 2
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_4B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_4B_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CMP_4B_0 .
+[Sat Oct 17 20:26:59 2020] Launched CMP_4B_xup_xnor2_1_0_synth_1, CMP_4B_xup_xnor2_3_0_synth_1, CMP_4B_xup_xnor2_2_0_synth_1, CMP_4B_ATAD_SPLIT_4_0_0_synth_1, DIV_4_4B_ATAD_SPLIT_4_0_0_synth_1, CMP_4B_xup_xnor2_0_0_synth_1, CMP_4B_ATAD_SPLIT_4_1_0_synth_1, MUX_4B_ATAD_SPLIT_4_1_0_synth_1, MUX_4B_xup_and2_2_0_synth_1, MUX_4B_ATAD_SPLIT_4_0_0_synth_1, MUX_4B_xup_and2_1_0_synth_1, MUX_4B_xup_inv_0_0_synth_1, MUX_4B_xup_and2_0_0_synth_1, MUX_4B_xup_and2_3_0_synth_1, UAL_CMP_4B_0_0_synth_1, UAL_DIV_4_4B_0_0_synth_1, DIV_4_4B_xup_xor2_0_0_synth_1, UAL_MUX_4B_0_0_synth_1, MUX_4B_xup_or2_1_0_synth_1, MUX_4B_xup_or2_3_0_synth_1, MUX_4B_xup_and2_4_0_synth_1, MUX_4B_xup_or2_0_0_synth_1, MUX_4B_xup_or2_2_0_synth_1, MUX_4B_xup_and2_5_0_synth_1, MUX_4B_xup_and2_7_0_synth_1, MUX_4B_xup_and2_6_0_synth_1...
+Run output will be captured here:
+CMP_4B_xup_xnor2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/CMP_4B_xup_xnor2_1_0_synth_1/runme.log
+CMP_4B_xup_xnor2_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/CMP_4B_xup_xnor2_3_0_synth_1/runme.log
+CMP_4B_xup_xnor2_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/CMP_4B_xup_xnor2_2_0_synth_1/runme.log
+CMP_4B_ATAD_SPLIT_4_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/CMP_4B_ATAD_SPLIT_4_0_0_synth_1/runme.log
+DIV_4_4B_ATAD_SPLIT_4_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/DIV_4_4B_ATAD_SPLIT_4_0_0_synth_1/runme.log
+CMP_4B_xup_xnor2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/CMP_4B_xup_xnor2_0_0_synth_1/runme.log
+CMP_4B_ATAD_SPLIT_4_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/CMP_4B_ATAD_SPLIT_4_1_0_synth_1/runme.log
+MUX_4B_ATAD_SPLIT_4_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_ATAD_SPLIT_4_1_0_synth_1/runme.log
+MUX_4B_xup_and2_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_2_0_synth_1/runme.log
+MUX_4B_ATAD_SPLIT_4_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_ATAD_SPLIT_4_0_0_synth_1/runme.log
+MUX_4B_xup_and2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_1_0_synth_1/runme.log
+MUX_4B_xup_inv_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_inv_0_0_synth_1/runme.log
+MUX_4B_xup_and2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_0_0_synth_1/runme.log
+MUX_4B_xup_and2_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_3_0_synth_1/runme.log
+UAL_CMP_4B_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/UAL_CMP_4B_0_0_synth_1/runme.log
+UAL_DIV_4_4B_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/UAL_DIV_4_4B_0_0_synth_1/runme.log
+DIV_4_4B_xup_xor2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/DIV_4_4B_xup_xor2_0_0_synth_1/runme.log
+UAL_MUX_4B_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/UAL_MUX_4B_0_0_synth_1/runme.log
+MUX_4B_xup_or2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_1_0_synth_1/runme.log
+MUX_4B_xup_or2_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_3_0_synth_1/runme.log
+MUX_4B_xup_and2_4_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_4_0_synth_1/runme.log
+MUX_4B_xup_or2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_0_0_synth_1/runme.log
+MUX_4B_xup_or2_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_2_0_synth_1/runme.log
+MUX_4B_xup_and2_5_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_5_0_synth_1/runme.log
+MUX_4B_xup_and2_7_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_7_0_synth_1/runme.log
+MUX_4B_xup_and2_6_0_synth_1: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_and2_6_0_synth_1/runme.log
+[Sat Oct 17 20:27:05 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:42 ; elapsed = 00:00:32 . Memory (MB): peak = 1014.504 ; gain = 0.000
+launch_runs impl_1 -jobs 2
+[Sat Oct 17 20:36:16 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sat Oct 17 20:38:11 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/labo2.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/Adam/Downloads/INF1500/labo2.xdc
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 17 20:40:27 2020...

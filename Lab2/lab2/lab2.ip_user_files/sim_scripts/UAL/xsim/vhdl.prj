@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../bd/UAL/ip/UAL_MUX_4B_0_0/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_ATAD_SPLIT_4_0_0/sim/MUX_4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/UAL/ip/UAL_MUX_4B_0_0/src/MUX_4B_ATAD_SPLIT_4_1_0/sim/MUX_4B_ATAD_SPLIT_4_1_0.vhd" \
+"../../../bd/UAL/ipshared/bf5e/sim/MUX_4B.vhd" \
+"../../../bd/UAL/ip/UAL_MUX_4B_0_0/sim/UAL_MUX_4B_0_0.vhd" \
+"../../../bd/UAL/ip/UAL_DIV_4_4B_0_0/src/DIV_4_4B_ATAD_SPLIT_4_0_0/sim/DIV_4_4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/UAL/ipshared/8d83/sim/DIV_4_4B.vhd" \
+"../../../bd/UAL/ip/UAL_DIV_4_4B_0_0/sim/UAL_DIV_4_4B_0_0.vhd" \
+"../../../bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_ATAD_SPLIT_4_0_0/sim/CMP_4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/UAL/ip/UAL_CMP_4B_0_0/src/CMP_4B_ATAD_SPLIT_4_1_0/sim/CMP_4B_ATAD_SPLIT_4_1_0.vhd" \
+"../../../bd/UAL/ipshared/c6a5/sim/CMP_4B.vhd" \
+"../../../bd/UAL/ip/UAL_CMP_4B_0_0/sim/UAL_CMP_4B_0_0.vhd" \
+"../../../bd/UAL/sim/UAL.vhd" \
+
+nosort

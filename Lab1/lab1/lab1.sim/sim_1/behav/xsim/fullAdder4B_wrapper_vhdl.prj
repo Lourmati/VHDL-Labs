@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ipshared/d3d7/sim/fullAdder1B.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_0_0/sim/fullAdder4B_fullAdder1B_0_0.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_1_0/sim/fullAdder4B_fullAdder1B_1_0.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_2_0/sim/fullAdder4B_fullAdder1B_2_0.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_3_0/sim/fullAdder4B_fullAdder1B_3_0.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ip/fullAdder4B_ATAD_SPLIT_4_0_0/sim/fullAdder4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/ip/fullAdder4B_ATAD_SPLIT_4_1_0/sim/fullAdder4B_ATAD_SPLIT_4_1_0.vhd" \
+"../../../../lab1.ip_user_files/bd/fullAdder4B/sim/fullAdder4B.vhd" \
+"../../../../lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

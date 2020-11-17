@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/bd/fullAdder4B/sim/fullAdder4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B_wrapper'

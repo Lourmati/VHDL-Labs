@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/BIN_GRAY/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../bd/BIN_GRAY/ip/BIN_GRAY_ATAD_SPLIT_4_0_0/sim/BIN_GRAY_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/BIN_GRAY/sim/BIN_GRAY.vhd" \
+
+nosort

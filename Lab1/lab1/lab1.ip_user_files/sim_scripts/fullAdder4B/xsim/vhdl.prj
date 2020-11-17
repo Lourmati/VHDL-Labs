@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/fullAdder4B/ipshared/d3d7/sim/fullAdder1B.vhd" \
+"../../../bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_0_0/sim/fullAdder4B_fullAdder1B_0_0.vhd" \
+"../../../bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_1_0/sim/fullAdder4B_fullAdder1B_1_0.vhd" \
+"../../../bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_2_0/sim/fullAdder4B_fullAdder1B_2_0.vhd" \
+"../../../bd/fullAdder4B/ip/fullAdder4B_fullAdder1B_3_0/sim/fullAdder4B_fullAdder1B_3_0.vhd" \
+"../../../bd/fullAdder4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../bd/fullAdder4B/ip/fullAdder4B_ATAD_SPLIT_4_0_0/sim/fullAdder4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/fullAdder4B/ip/fullAdder4B_ATAD_SPLIT_4_1_0/sim/fullAdder4B_ATAD_SPLIT_4_1_0.vhd" \
+"../../../bd/fullAdder4B/sim/fullAdder4B.vhd" \
+
+nosort

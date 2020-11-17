@@ -1,0 +1,29 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.13824",
+   "Default View_TopLeft":"-146,-10",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace portBus A -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace portBus B -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace portBus C -pg 1 -lvl 0 -x 0 -y 250 -defaultsOSRD
+preplace portBus SEL -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace portBus S -pg 1 -lvl 3 -x 410 -y 160 -defaultsOSRD
+preplace inst BIN_GRAY_0 -pg 1 -lvl 1 -x 110 -y 50 -defaultsOSRD
+preplace inst DIV_4_REST_0 -pg 1 -lvl 1 -x 110 -y 150 -defaultsOSRD
+preplace inst CRYPTO_0 -pg 1 -lvl 1 -x 110 -y 250 -defaultsOSRD
+preplace inst MUX3_1_0 -pg 1 -lvl 2 -x 300 -y 160 -defaultsOSRD
+preplace netloc MUX3_1_0_S 1 2 1 N 160
+preplace netloc A_1 1 0 1 NJ 50
+preplace netloc B_1 1 0 1 NJ 150
+preplace netloc C_1 1 0 1 NJ 250
+preplace netloc SEL_1 1 0 2 NJ 310 200J
+preplace netloc BIN_GRAY_0_S 1 1 1 190J 50n
+preplace netloc DIV_4_REST_0_S 1 1 1 NJ 150
+preplace netloc CRYPTO_0_S 1 1 1 190J 170n
+levelinfo -pg 1 0 110 300 410
+pagesize -pg 1 -db -bbox -sgen -100 -10 500 330
+"
+}
+

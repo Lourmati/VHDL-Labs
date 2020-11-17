@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xlconcat_0_0/sim/CMP_4B_xlconcat_0_0.v" \
+"../../../../lab2.ip_user_files/bd/CMP_4B/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v" \
+"../../../../lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_0_0/sim/CMP_4B_xup_xnor2_0_0.v" \
+"../../../../lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_1_0/sim/CMP_4B_xup_xnor2_1_0.v" \
+"../../../../lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_2_0/sim/CMP_4B_xup_xnor2_2_0.v" \
+"../../../../lab2.ip_user_files/bd/CMP_4B/ip/CMP_4B_xup_xnor2_3_0/sim/CMP_4B_xup_xnor2_3_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

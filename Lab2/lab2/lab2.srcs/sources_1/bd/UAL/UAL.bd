@@ -1,0 +1,91 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x961259B0961259B",
+      "device": "xc7a100tcsg324-1",
+      "name": "UAL",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "MUX_4B_0": "",
+      "DIV_4_4B_0": "",
+      "CMP_4B_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "S": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "SEL": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "MUX_4B_0": {
+        "vlnv": "xilinx.com:user:MUX_4B:1.0",
+        "xci_name": "UAL_MUX_4B_0_0"
+      },
+      "DIV_4_4B_0": {
+        "vlnv": "xilinx.com:user:DIV_4_4B:1.0",
+        "xci_name": "UAL_DIV_4_4B_0_0"
+      },
+      "CMP_4B_0": {
+        "vlnv": "xilinx.com:user:CMP_4B:1.0",
+        "xci_name": "UAL_CMP_4B_0_0"
+      }
+    },
+    "nets": {
+      "A_1": {
+        "ports": [
+          "A",
+          "DIV_4_4B_0/a",
+          "CMP_4B_0/a"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "CMP_4B_0/b"
+        ]
+      },
+      "DIV_4_4B_0_s": {
+        "ports": [
+          "DIV_4_4B_0/s",
+          "MUX_4B_0/a"
+        ]
+      },
+      "CMP_4B_0_z": {
+        "ports": [
+          "CMP_4B_0/z",
+          "MUX_4B_0/b"
+        ]
+      },
+      "MUX_4B_0_s": {
+        "ports": [
+          "MUX_4B_0/s",
+          "S"
+        ]
+      },
+      "SEL_1": {
+        "ports": [
+          "SEL",
+          "MUX_4B_0/SEL"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Oct  1 17:55:42 2020" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="UAL" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DIV_4_4B_0" PORT="a"/>
+        <CONNECTION INSTANCE="CMP_4B_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CMP_4B_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="MUX_4B_0_s">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX_4B_0" PORT="s"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="SEL" SIGIS="undef" SIGNAME="External_Ports_SEL">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX_4B_0" PORT="SEL"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/CMP_4B_0" HWVERSION="1.0" INSTANCE="CMP_4B_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CMP_4B" VLNV="xilinx.com:user:CMP_4B:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="UAL_CMP_4B_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="z" RIGHT="0" SIGIS="undef" SIGNAME="CMP_4B_0_z">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX_4B_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/DIV_4_4B_0" HWVERSION="1.0" INSTANCE="DIV_4_4B_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="DIV_4_4B" VLNV="xilinx.com:user:DIV_4_4B:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="UAL_DIV_4_4B_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="DIV_4_4B_0_s">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX_4B_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/MUX_4B_0" HWVERSION="1.0" INSTANCE="MUX_4B_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX_4B" VLNV="xilinx.com:user:MUX_4B:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="UAL_MUX_4B_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="SEL" SIGIS="undef" SIGNAME="External_Ports_SEL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SEL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="DIV_4_4B_0_s">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DIV_4_4B_0" PORT="s"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="CMP_4B_0_z">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CMP_4B_0" PORT="z"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="MUX_4B_0_s">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

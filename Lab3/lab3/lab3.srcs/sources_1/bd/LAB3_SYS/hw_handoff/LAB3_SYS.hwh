@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Nov  4 18:40:23 2020" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="LAB3_SYS" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="BIN_GRAY_0" PORT="E"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="DIV_4_REST_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="C" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_C">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="CRYPTO_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="SEL" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SEL">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX3_1_0" PORT="SEL"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="MUX3_1_0_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX3_1_0" PORT="S"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/BIN_GRAY_0" HWVERSION="1.0" INSTANCE="BIN_GRAY_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="BIN_GRAY" VLNV="xilinx.com:user:BIN_GRAY:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="LAB3_SYS_BIN_GRAY_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="E" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="BIN_GRAY_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX3_1_0" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/CRYPTO_0" HWVERSION="1.0" INSTANCE="CRYPTO_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CRYPTO" VLNV="xilinx.com:user:CRYPTO:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="LAB3_SYS_CRYPTO_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_C">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="CRYPTO_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX3_1_0" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/DIV_4_REST_0" HWVERSION="1.0" INSTANCE="DIV_4_REST_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="DIV_4_REST" VLNV="xilinx.com:user:DIV_4_REST:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="LAB3_SYS_DIV_4_REST_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="DIV_4_REST_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX3_1_0" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/MUX3_1_0" HWVERSION="1.0" INSTANCE="MUX3_1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX3_1" VLNV="xilinx.com:user:MUX3_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="LAB3_SYS_MUX3_1_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="BIN_GRAY_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BIN_GRAY_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="DIV_4_REST_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="DIV_4_REST_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="C" RIGHT="0" SIGIS="undef" SIGNAME="CRYPTO_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="CRYPTO_0" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="MUX3_1_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="SEL" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_SEL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SEL"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

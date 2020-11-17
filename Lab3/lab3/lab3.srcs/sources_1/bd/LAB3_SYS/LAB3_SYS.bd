@@ -1,0 +1,114 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9AAD949E9AAD949E",
+      "device": "xc7a100tcsg324-1",
+      "name": "LAB3_SYS",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "BIN_GRAY_0": "",
+      "DIV_4_REST_0": "",
+      "CRYPTO_0": "",
+      "MUX3_1_0": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "C": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "SEL": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "S": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "BIN_GRAY_0": {
+        "vlnv": "xilinx.com:user:BIN_GRAY:1.0",
+        "xci_name": "LAB3_SYS_BIN_GRAY_0_1"
+      },
+      "DIV_4_REST_0": {
+        "vlnv": "xilinx.com:user:DIV_4_REST:1.0",
+        "xci_name": "LAB3_SYS_DIV_4_REST_0_1"
+      },
+      "CRYPTO_0": {
+        "vlnv": "xilinx.com:user:CRYPTO:1.0",
+        "xci_name": "LAB3_SYS_CRYPTO_0_1"
+      },
+      "MUX3_1_0": {
+        "vlnv": "xilinx.com:user:MUX3_1:1.0",
+        "xci_name": "LAB3_SYS_MUX3_1_0_1"
+      }
+    },
+    "nets": {
+      "MUX3_1_0_S": {
+        "ports": [
+          "MUX3_1_0/S",
+          "S"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "BIN_GRAY_0/E"
+        ]
+      },
+      "B_1": {
+        "ports": [
+          "B",
+          "DIV_4_REST_0/A"
+        ]
+      },
+      "C_1": {
+        "ports": [
+          "C",
+          "CRYPTO_0/A"
+        ]
+      },
+      "SEL_1": {
+        "ports": [
+          "SEL",
+          "MUX3_1_0/SEL"
+        ]
+      },
+      "BIN_GRAY_0_S": {
+        "ports": [
+          "BIN_GRAY_0/S",
+          "MUX3_1_0/A"
+        ]
+      },
+      "DIV_4_REST_0_S": {
+        "ports": [
+          "DIV_4_REST_0/S",
+          "MUX3_1_0/B"
+        ]
+      },
+      "CRYPTO_0_S": {
+        "ports": [
+          "CRYPTO_0/S",
+          "MUX3_1_0/C"
+        ]
+      }
+    }
+  }
+}

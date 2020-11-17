@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"MUX3_1": {
+			"proto_instances": {
+			}
+		}
+	}
+}

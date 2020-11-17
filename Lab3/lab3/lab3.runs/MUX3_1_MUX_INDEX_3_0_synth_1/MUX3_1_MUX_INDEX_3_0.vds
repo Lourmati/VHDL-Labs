@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  4 18:34:54 2020
+# Process ID: 6404
+# Current directory: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_3_0_synth_1
+# Command line: vivado.exe -log MUX3_1_MUX_INDEX_3_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX3_1_MUX_INDEX_3_0.tcl
+# Log file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_3_0_synth_1/MUX3_1_MUX_INDEX_3_0.vds
+# Journal file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_3_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MUX3_1_MUX_INDEX_3_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP MUX3_1_MUX_INDEX_3_0, cache-ID = b7b6421ffd0629af.
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 18:35:01 2020...

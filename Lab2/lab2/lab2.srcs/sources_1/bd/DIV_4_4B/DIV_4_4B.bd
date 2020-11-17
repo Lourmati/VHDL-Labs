@@ -1,0 +1,95 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD6FDFCCC392E0632",
+      "device": "xc7a100tcsg324-1",
+      "name": "DIV_4_4B",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ATAD_SPLIT_4_0": "",
+      "xup_xor2_0": "",
+      "xlconcat_0": ""
+    },
+    "ports": {
+      "a": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "s": {
+        "direction": "O",
+        "left": "3",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "4",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "ATAD_SPLIT_4_0": {
+        "vlnv": "xilinx.com:user:ATAD_SPLIT_4:1.0",
+        "xci_name": "DIV_4_4B_ATAD_SPLIT_4_0_0"
+      },
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "DIV_4_4B_xup_xor2_0_0"
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "DIV_4_4B_xlconcat_0_1",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "4"
+          }
+        }
+      }
+    },
+    "nets": {
+      "a_1": {
+        "ports": [
+          "a",
+          "ATAD_SPLIT_4_0/VIN"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "s"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT2": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT2",
+          "xlconcat_0/In0"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT3": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT3",
+          "xlconcat_0/In1"
+        ]
+      },
+      "ATAD_SPLIT_4_0_VOUT0": {
+        "ports": [
+          "ATAD_SPLIT_4_0/VOUT0",
+          "xup_xor2_0/a",
+          "xup_xor2_0/b"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "xlconcat_0/In2",
+          "xlconcat_0/In3"
+        ]
+      }
+    }
+  }
+}

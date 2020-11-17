@@ -1,0 +1,496 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 23 13:44:35 2020
+# Process ID: 868
+# Current directory: C:/Users/Adam/Downloads/INF1500/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1452 C:\Users\Adam\Downloads\INF1500\lab1\lab1.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/lab1/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/lab1/lab1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/fullAdder1B'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1014.902 ; gain = 0.000
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd]
+INFO: [BD 41-1662] The design 'fullAdder4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/sim/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.hwdef
+generate_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1014.902 ; gain = 0.000
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd] -directory C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'fullAdder4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/sim/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fullAdder4B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fullAdder4B_wrapper_vlog.prj"
+"xvhdl --incr --relax -prj fullAdder4B_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/bd/fullAdder4B/sim/fullAdder4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B_wrapper'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+"xelab -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture fulladder4b_atad_split_4_0_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_0_0 [fulladder4b_atad_split_4_0_0_def...]
+Compiling architecture fulladder4b_atad_split_4_1_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_1_0 [fulladder4b_atad_split_4_1_0_def...]
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_1_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.fullAdder1B_xup_or3_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_1_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder1B [fulladder1b_default]
+Compiling architecture fulladder4b_fulladder1b_0_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_0_0 [fulladder4b_fulladder1b_0_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_1_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_1_0 [fulladder4b_fulladder1b_1_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_2_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_2_0 [fulladder4b_fulladder1b_2_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_3_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_3_0 [fulladder4b_fulladder1b_3_0_defa...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.fullAdder4B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor4
+Compiling module xil_defaultlib.fullAdder4B_xup_nor4_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_1_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_2_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_3_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_4_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder4B [fulladder4b_default]
+Compiling architecture structure of entity xil_defaultlib.fulladder4b_wrapper
+Built simulation snapshot fullAdder4B_wrapper_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim/xsim.dir/fullAdder4B_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim/xsim.dir/fullAdder4B_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Sep 23 14:01:25 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Sep 23 14:01:25 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1014.902 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fullAdder4B_wrapper_behav -key {Behavioral:sim_1:Functional:fullAdder4B_wrapper} -tclbatch {fullAdder4B_wrapper.tcl} -protoinst "protoinst_files/fullAdder4B.protoinst" -protoinst "protoinst_files/fullAdder1B.protoinst" -view {C:/Users/Adam/Downloads/INF1500/lab1/fullAdder1B_wrapper_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/fullAdder4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/fullAdder1B.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Adam/Downloads/INF1500/lab1/fullAdder1B_wrapper_behav.wcfg
+WARNING: Simulation object /fullAdder1B_wrapper/a was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/b was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/cin was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/cout was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/s was not found in the design.
+source fullAdder4B_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.902 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fullAdder4B_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:37 . Memory (MB): peak = 1014.902 ; gain = 0.000
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 25000ps} -repeat_every 50000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 100000ps} -repeat_every 200000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 200000ps} -repeat_every 400000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 400000ps} -repeat_every 800000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 800000ps} -repeat_every 1600000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 1600000ps} -repeat_every 3200000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 3200000ps} -repeat_every 6400000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 200000ps} -repeat_every 400000ps
+run 12800 ns
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1534.871 ; gain = 0.000
+generate_target Simulation [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd]
+INFO: [BD 41-1662] The design 'fullAdder4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/sim/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.hwdef
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd] -directory C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'fullAdder4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/sim/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fullAdder4B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fullAdder4B_wrapper_vlog.prj"
+"xvhdl --incr --relax -prj fullAdder4B_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/bd/fullAdder4B/sim/fullAdder4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B_wrapper'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+"xelab -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture fulladder4b_atad_split_4_0_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_0_0 [fulladder4b_atad_split_4_0_0_def...]
+Compiling architecture fulladder4b_atad_split_4_1_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_1_0 [fulladder4b_atad_split_4_1_0_def...]
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_1_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.fullAdder1B_xup_or3_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_1_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder1B [fulladder1b_default]
+Compiling architecture fulladder4b_fulladder1b_0_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_0_0 [fulladder4b_fulladder1b_0_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_1_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_1_0 [fulladder4b_fulladder1b_1_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_2_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_2_0 [fulladder4b_fulladder1b_2_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_3_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_3_0 [fulladder4b_fulladder1b_3_0_defa...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.fullAdder4B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor4
+Compiling module xil_defaultlib.fullAdder4B_xup_nor4_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_1_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_2_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_3_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_4_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder4B [fulladder4b_default]
+Compiling architecture structure of entity xil_defaultlib.fulladder4b_wrapper
+Built simulation snapshot fullAdder4B_wrapper_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1534.871 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fullAdder4B_wrapper_behav -key {Behavioral:sim_1:Functional:fullAdder4B_wrapper} -tclbatch {fullAdder4B_wrapper.tcl} -protoinst "protoinst_files/fullAdder4B.protoinst" -protoinst "protoinst_files/fullAdder1B.protoinst" -view {C:/Users/Adam/Downloads/INF1500/lab1/fullAdder1B_wrapper_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/fullAdder4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/fullAdder1B.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Adam/Downloads/INF1500/lab1/fullAdder1B_wrapper_behav.wcfg
+WARNING: Simulation object /fullAdder1B_wrapper/a was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/b was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/cin was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/cout was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/s was not found in the design.
+source fullAdder4B_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fullAdder4B_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 1534.871 ; gain = 0.000
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 25000ps} -repeat_every 50000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 100000ps} -repeat_every 200000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 200000ps} -repeat_every 400000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 400000ps} -repeat_every 800000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 800000ps} -repeat_every 1600000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 1600000ps} -repeat_every 3200000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 3200000ps} -repeat_every 6400000ps
+run 6400 ns
+run 6400 ns
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 25000ps} -repeat_every 50000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+generate_target Simulation [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd]
+INFO: [BD 41-1662] The design 'fullAdder4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/sim/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.hwdef
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd] -directory C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/lab1/lab1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'fullAdder4B.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/sim/fullAdder4B.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hw_handoff/fullAdder4B_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/synth/fullAdder4B.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/fullAdder4B.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fullAdder4B_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fullAdder4B_wrapper_vlog.prj"
+"xvhdl --incr --relax -prj fullAdder4B_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.ip_user_files/bd/fullAdder4B/sim/fullAdder4B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/lab1/lab1.srcs/sources_1/bd/fullAdder4B/hdl/fullAdder4B_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fullAdder4B_wrapper'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+"xelab -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 985dfabb2c2944b5b9c517dacf2ac457 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fullAdder4B_wrapper_behav xil_defaultlib.fullAdder4B_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture fulladder4b_atad_split_4_0_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_0_0 [fulladder4b_atad_split_4_0_0_def...]
+Compiling architecture fulladder4b_atad_split_4_1_0_arch of entity xil_defaultlib.fullAdder4B_ATAD_SPLIT_4_1_0 [fulladder4b_atad_split_4_1_0_def...]
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_1_0
+Compiling module xil_defaultlib.fullAdder1B_xup_and2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.fullAdder1B_xup_or3_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder1B_xup_xor2_1_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder1B [fulladder1b_default]
+Compiling architecture fulladder4b_fulladder1b_0_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_0_0 [fulladder4b_fulladder1b_0_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_1_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_1_0 [fulladder4b_fulladder1b_1_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_2_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_2_0 [fulladder4b_fulladder1b_2_0_defa...]
+Compiling architecture fulladder4b_fulladder1b_3_0_arch of entity xil_defaultlib.fullAdder4B_fullAdder1B_3_0 [fulladder4b_fulladder1b_3_0_defa...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.fullAdder4B_xlconcat_0_0
+Compiling module xil_defaultlib.xup_nor4
+Compiling module xil_defaultlib.fullAdder4B_xup_nor4_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_0_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_1_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_2_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_3_0
+Compiling module xil_defaultlib.fullAdder4B_xup_xor2_4_0
+Compiling architecture structure of entity xil_defaultlib.fullAdder4B [fulladder4b_default]
+Compiling architecture structure of entity xil_defaultlib.fulladder4b_wrapper
+Built simulation snapshot fullAdder4B_wrapper_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/lab1/lab1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fullAdder4B_wrapper_behav -key {Behavioral:sim_1:Functional:fullAdder4B_wrapper} -tclbatch {fullAdder4B_wrapper.tcl} -protoinst "protoinst_files/fullAdder4B.protoinst" -protoinst "protoinst_files/fullAdder1B.protoinst" -view {C:/Users/Adam/Downloads/INF1500/lab1/fullAdder1B_wrapper_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/fullAdder4B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/fullAdder1B.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Adam/Downloads/INF1500/lab1/fullAdder1B_wrapper_behav.wcfg
+WARNING: Simulation object /fullAdder1B_wrapper/a was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/b was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/cin was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/cout was not found in the design.
+WARNING: Simulation object /fullAdder1B_wrapper/s was not found in the design.
+source fullAdder4B_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fullAdder4B_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 1534.871 ; gain = 0.000
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 25000ps} -repeat_every 50000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 100000ps} -repeat_every 200000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 200000ps} -repeat_every 400000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 400000ps} -repeat_every 800000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 400000ps} -repeat_every 800000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 800000ps} -repeat_every 1600000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 1600000ps} -repeat_every 3200000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 3200000ps} -repeat_every 6400000ps
+run 6400 ns
+run 6400 ns
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 10000ps} -repeat_every 20000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 20000ps} -repeat_every 40000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 40000ps} -repeat_every 80000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 80000ps} -repeat_every 160000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 160000ps} -repeat_every 320000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 320000ps} -repeat_every 640000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 640000ps} -repeat_every 1280000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 1280000ps} -repeat_every 2560000ps
+run 6400 ns
+run 2560 ns
+run 2560 ns
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 500000ps} -repeat_every 1000000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 1000000ps} -repeat_every 2000000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 2000000ps} -repeat_every 4000000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 4000000ps} -repeat_every 8000000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 8000000ps} -repeat_every 16000000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 16000000ps} -repeat_every 32000000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 32000000ps} -repeat_every 64000000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 64000000ps} -repeat_every 128000000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 12800000ps} -repeat_every 25600000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 8000000ps} -repeat_every 16000000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 16000000ps} -repeat_every 32000000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 32000000ps} -repeat_every 64000000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 8000000ps} -repeat_every 16000000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 16000000ps} -repeat_every 32000000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 32000000ps} -repeat_every 64000000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 64000000ps} -repeat_every 128000000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 128000000ps} -repeat_every 256000000ps
+run 2560 ns
+run 256000 ns
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 10000ps} -repeat_every 20000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 20000ps} -repeat_every 40000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 40000ps} -repeat_every 80000ps
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 10000ps} -repeat_every 20000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 20000ps} -repeat_every 40000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 40000ps} -repeat_every 80000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 80000ps} -repeat_every 160000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 160000ps} -repeat_every 320000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 320000ps} -repeat_every 640000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 640000ps} -repeat_every 1280000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 1280000ps} -repeat_every 2560000ps
+run 2560 ns
+add_force {/fullAdder4B_wrapper/a[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/fullAdder4B_wrapper/a[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/fullAdder4B_wrapper/a[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/fullAdder4B_wrapper/a[3]} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 8000ps} -repeat_every 16000ps
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 16000ps} -repeat_every 32000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 32000ps} -repeat_every 64000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 64000ps} -repeat_every 128000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 128000ps} -repeat_every 256000ps
+run 256 ns
+run 256 ns
+run 256 ns
+add_force {/fullAdder4B_wrapper/b[0]} -radix hex {0 0ns} {1 8000ps} -repeat_every 16000ps
+add_force {/fullAdder4B_wrapper/b[1]} -radix hex {0 0ns} {1 16000ps} -repeat_every 32000ps
+add_force {/fullAdder4B_wrapper/b[2]} -radix hex {0 0ns} {1 32000ps} -repeat_every 64000ps
+add_force {/fullAdder4B_wrapper/b[3]} -radix hex {0 0ns} {1 64000ps} -repeat_every 128000ps
+add_force {/fullAdder4B_wrapper/op} -radix hex {0 0ns} {1 128000ps} -repeat_every 256000ps
+run 256 ns
+run 256 ns
+run 256 ns
+remove_forces { {/fullAdder4B_wrapper/a} {/fullAdder4B_wrapper/a[3]} {/fullAdder4B_wrapper/a[2]} {/fullAdder4B_wrapper/a[1]} {/fullAdder4B_wrapper/a[0]} {/fullAdder4B_wrapper/b} {/fullAdder4B_wrapper/b[3]} {/fullAdder4B_wrapper/b[2]} {/fullAdder4B_wrapper/b[1]} {/fullAdder4B_wrapper/b[0]} {/fullAdder4B_wrapper/cout} {/fullAdder4B_wrapper/op} {/fullAdder4B_wrapper/s} {/fullAdder4B_wrapper/z} }
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 287976 ns  Iteration: 13
+ERROR: unknown error occurred

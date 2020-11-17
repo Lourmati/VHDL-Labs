@@ -1,0 +1,1107 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  4 18:25:20 2020
+# Process ID: 11632
+# Current directory: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10108 C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab3\lab3\lab3.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/MUX3_1_MUX_INDEX_0_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd', but fileset 'MUX3_1_MUX_INDEX_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/MUX3_1_MUX_INDEX_1_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd', but fileset 'MUX3_1_MUX_INDEX_1_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/MUX3_1_MUX_INDEX_2_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd', but fileset 'MUX3_1_MUX_INDEX_2_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/MUX3_1_MUX_INDEX_3_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd', but fileset 'MUX3_1_MUX_INDEX_3_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_xup_and3_1_0/MUX_INDEX_xup_and3_1_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_xup_and3_1_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_xup_or3_0_0/MUX_INDEX_xup_or3_0_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_xup_or3_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_xup_and3_2_0/MUX_INDEX_xup_and3_2_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_xup_and3_2_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_xup_and3_0_0/MUX_INDEX_xup_and3_0_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_xup_and3_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_ATAD_SPLIT_2_0_0/MUX_INDEX_ATAD_SPLIT_2_0_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_ATAD_SPLIT_2_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_xup_inv_1_0/MUX_INDEX_xup_inv_1_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_xup_inv_1_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+WARNING: [Project 1-533] File 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/ip/MUX_INDEX_xup_inv_0_0/MUX_INDEX_xup_inv_0_0.xci' could not be found in the subdesign 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd', but fileset 'MUX_INDEX_xup_inv_0_0' still exists. The fileset and corresponding run(s) will be deleted the next time top-level synthesis is run.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 1192.504 ; gain = 0.000
+make_wrapper -files [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/BIN_GRAY.bd] -top
+INFO: [BD 41-434] Could not find an IP with XCI file by name: BIN_GRAY_ATAD_SPLIT_4_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: BIN_GRAY_xup_xor2_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: BIN_GRAY_xup_xor2_1_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: BIN_GRAY_xup_xor2_2_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: BIN_GRAY_xlconcat_0_0 
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab3\lab3\lab3.srcs\sources_1\bd\BIN_GRAY\BIN_GRAY.bd> 
+INFO: [Common 17-365] Interrupt caught but 'make_wrapper' cannot be canceled. Please wait for command to finish.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/synth/BIN_GRAY.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/sim/BIN_GRAY.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd
+make_wrapper: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1192.504 ; gain = 0.000
+INFO: [Common 17-681] Processing pending cancel.
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  {C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd}
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd
+make_wrapper -files [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/BIN_GRAY.bd] -top
+INFO: [BD 41-1662] The design 'BIN_GRAY.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/synth/BIN_GRAY.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/sim/BIN_GRAY.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd
+add_files -norecurse C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd
+make_wrapper -files [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd] -top
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_ATAD_SPLIT_2_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_xup_inv_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_xup_inv_1_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_xup_and3_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_xup_and3_1_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_xup_and3_2_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX_INDEX_xup_or3_0_0 
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab3\lab3\lab3.srcs\sources_1\bd\MUX_INDEX\MUX_INDEX.bd> 
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/synth/MUX_INDEX.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/sim/MUX_INDEX.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd
+add_files -norecurse C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd
+set_property  ip_repo_paths  {c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+generate_target all [get_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd]
+INFO: [BD 41-1662] The design 'MUX_INDEX.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/synth/MUX_INDEX.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/sim/MUX_INDEX.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and3_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+Exporting to file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hw_handoff/MUX_INDEX.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hw_handoff/MUX_INDEX_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/synth/MUX_INDEX.hwdef
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_ATAD_SPLIT_2_0_0] }
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_xup_inv_0_0] }
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_xup_inv_1_0] }
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_xup_and3_0_0] }
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_xup_and3_1_0] }
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_xup_and3_2_0] }
+catch { config_ip_cache -export [get_ips -all MUX_INDEX_xup_or3_0_0] }
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd]
+launch_runs MUX_INDEX_ATAD_SPLIT_2_0_0_synth_1 MUX_INDEX_xup_inv_0_0_synth_1 MUX_INDEX_xup_inv_1_0_synth_1 MUX_INDEX_xup_and3_0_0_synth_1 MUX_INDEX_xup_and3_1_0_synth_1 MUX_INDEX_xup_and3_2_0_synth_1 MUX_INDEX_xup_or3_0_0_synth_1 -jobs 2
+[Wed Nov  4 18:27:55 2020] Launched MUX_INDEX_ATAD_SPLIT_2_0_0_synth_1, MUX_INDEX_xup_inv_0_0_synth_1, MUX_INDEX_xup_inv_1_0_synth_1, MUX_INDEX_xup_and3_0_0_synth_1, MUX_INDEX_xup_and3_1_0_synth_1, MUX_INDEX_xup_and3_2_0_synth_1, MUX_INDEX_xup_or3_0_0_synth_1...
+Run output will be captured here:
+MUX_INDEX_ATAD_SPLIT_2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_ATAD_SPLIT_2_0_0_synth_1/runme.log
+MUX_INDEX_xup_inv_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_xup_inv_0_0_synth_1/runme.log
+MUX_INDEX_xup_inv_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_xup_inv_1_0_synth_1/runme.log
+MUX_INDEX_xup_and3_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_xup_and3_0_0_synth_1/runme.log
+MUX_INDEX_xup_and3_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_xup_and3_1_0_synth_1/runme.log
+MUX_INDEX_xup_and3_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_xup_and3_2_0_synth_1/runme.log
+MUX_INDEX_xup_or3_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX_INDEX_xup_or3_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/MUX_INDEX.bd] -directory C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/BIN_GRAY.bd]
+INFO: [BD 41-1662] The design 'BIN_GRAY.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/synth/BIN_GRAY.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/sim/BIN_GRAY.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_xor2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+Exporting to file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hw_handoff/BIN_GRAY.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hw_handoff/BIN_GRAY_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/synth/BIN_GRAY.hwdef
+catch { config_ip_cache -export [get_ips -all BIN_GRAY_ATAD_SPLIT_4_0_0] }
+catch { config_ip_cache -export [get_ips -all BIN_GRAY_xup_xor2_0_0] }
+catch { config_ip_cache -export [get_ips -all BIN_GRAY_xup_xor2_1_0] }
+catch { config_ip_cache -export [get_ips -all BIN_GRAY_xup_xor2_2_0] }
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/BIN_GRAY.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/BIN_GRAY.bd]
+launch_runs BIN_GRAY_ATAD_SPLIT_4_0_0_synth_1 BIN_GRAY_xup_xor2_0_0_synth_1 BIN_GRAY_xup_xor2_1_0_synth_1 BIN_GRAY_xup_xor2_2_0_synth_1 -jobs 2
+[Wed Nov  4 18:28:58 2020] Launched BIN_GRAY_ATAD_SPLIT_4_0_0_synth_1, BIN_GRAY_xup_xor2_0_0_synth_1, BIN_GRAY_xup_xor2_1_0_synth_1, BIN_GRAY_xup_xor2_2_0_synth_1...
+Run output will be captured here:
+BIN_GRAY_ATAD_SPLIT_4_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/BIN_GRAY_ATAD_SPLIT_4_0_0_synth_1/runme.log
+BIN_GRAY_xup_xor2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/BIN_GRAY_xup_xor2_0_0_synth_1/runme.log
+BIN_GRAY_xup_xor2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/BIN_GRAY_xup_xor2_1_0_synth_1/runme.log
+BIN_GRAY_xup_xor2_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/BIN_GRAY_xup_xor2_2_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/BIN_GRAY.bd] -directory C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::package_project -root_dir C:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX -vendor xilinx.com -library user -taxonomy /UserIP -module MUX_INDEX -import_files
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'MUX_INDEX' - hence not re-generating.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:MUX_INDEX:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:MUX_INDEX:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:MUX_INDEX:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:MUX_INDEX:1.0]
+set_property  ip_repo_paths  {c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+ipx::package_project -root_dir C:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY -vendor xilinx.com -library user -taxonomy /UserIP -module BIN_GRAY -import_files
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'BIN_GRAY' - hence not re-generating.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:BIN_GRAY:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:BIN_GRAY:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:BIN_GRAY:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:BIN_GRAY:1.0]
+set_property  ip_repo_paths  {c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+ipx::unload_core c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX/component.xml
+ipx::unload_core c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY/component.xml
+make_wrapper -files [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd] -top
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_ATAD_SPLIT_4_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_ATAD_SPLIT_4_1_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_ATAD_SPLIT_4_2_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_xlconcat_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_MUX_INDEX_1_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_MUX_INDEX_2_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_MUX_INDEX_3_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: MUX3_1_MUX_INDEX_0_0 
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab3\lab3\lab3.srcs\sources_1\bd\MUX3_1\MUX3_1.bd> 
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/synth/MUX3_1.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/sim/MUX3_1.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd
+add_files -norecurse C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd
+generate_target all [get_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd]
+INFO: [BD 41-1662] The design 'MUX3_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/synth/MUX3_1.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/sim/MUX3_1.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_4_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ATAD_SPLIT_4_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_INDEX_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_INDEX_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_INDEX_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX_INDEX_0 .
+Exporting to file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hw_handoff/MUX3_1.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hw_handoff/MUX3_1_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/synth/MUX3_1.hwdef
+catch { config_ip_cache -export [get_ips -all MUX3_1_ATAD_SPLIT_4_0_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP MUX3_1_ATAD_SPLIT_4_0_0, cache-ID = 078d2b222c79d3d3; cache size = 0.101 MB.
+catch { config_ip_cache -export [get_ips -all MUX3_1_ATAD_SPLIT_4_1_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP MUX3_1_ATAD_SPLIT_4_1_0, cache-ID = 078d2b222c79d3d3; cache size = 0.101 MB.
+catch { config_ip_cache -export [get_ips -all MUX3_1_ATAD_SPLIT_4_2_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP MUX3_1_ATAD_SPLIT_4_2_0, cache-ID = 078d2b222c79d3d3; cache size = 0.101 MB.
+catch { config_ip_cache -export [get_ips -all MUX3_1_MUX_INDEX_1_0] }
+catch { config_ip_cache -export [get_ips -all MUX3_1_MUX_INDEX_2_0] }
+catch { config_ip_cache -export [get_ips -all MUX3_1_MUX_INDEX_3_0] }
+catch { config_ip_cache -export [get_ips -all MUX3_1_MUX_INDEX_0_0] }
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd]
+launch_runs MUX3_1_MUX_INDEX_1_0_synth_1 MUX3_1_MUX_INDEX_2_0_synth_1 MUX3_1_MUX_INDEX_3_0_synth_1 MUX3_1_MUX_INDEX_0_0_synth_1 -jobs 2
+[Wed Nov  4 18:33:48 2020] Launched MUX3_1_MUX_INDEX_1_0_synth_1, MUX3_1_MUX_INDEX_2_0_synth_1, MUX3_1_MUX_INDEX_3_0_synth_1, MUX3_1_MUX_INDEX_0_0_synth_1...
+Run output will be captured here:
+MUX3_1_MUX_INDEX_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_1_0_synth_1/runme.log
+MUX3_1_MUX_INDEX_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_2_0_synth_1/runme.log
+MUX3_1_MUX_INDEX_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_3_0_synth_1/runme.log
+MUX3_1_MUX_INDEX_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/MUX3_1_MUX_INDEX_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/MUX3_1.bd] -directory C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::package_project -root_dir C:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1 -vendor xilinx.com -library user -taxonomy /UserIP -module MUX3_1 -import_files
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'MUX3_1' - hence not re-generating.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+set_property core_revision 2 [ipx::find_open_core xilinx.com:user:MUX3_1:1.0]
+ipx::create_xgui_files [ipx::find_open_core xilinx.com:user:MUX3_1:1.0]
+ipx::update_checksums [ipx::find_open_core xilinx.com:user:MUX3_1:1.0]
+ipx::save_core [ipx::find_open_core xilinx.com:user:MUX3_1:1.0]
+set_property  ip_repo_paths  {c:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1 c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+ipx::unload_core c:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1/component.xml
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX3_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/BIN_GRAY'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/MUX_INDEX'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/CRYPTO'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/DIV_4_REST'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/ATAD_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Adam/Downloads/INF1500/ip_repo/XUP_LIB'.
+open_bd_design {C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd}
+Adding component instance block -- xilinx.com:user:BIN_GRAY:1.0 - BIN_GRAY_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_BIN_GRAY_0_1 
+Adding component instance block -- xilinx.com:user:DIV_4_REST:1.0 - DIV_4_REST_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_DIV_4_REST_0_1 
+Adding component instance block -- xilinx.com:user:CRYPTO:1.0 - CRYPTO_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_CRYPTO_0_1 
+Adding component instance block -- xilinx.com:user:MUX3_1:1.0 - MUX3_1_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_MUX3_1_0_2 
+Successfully read diagram <LAB3_SYS> from BD file <C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/ui/bd_8a6fc894.ui> 
+close_bd_design [get_bd_designs LAB3_SYS]
+make_wrapper -files [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd] -top
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_BIN_GRAY_0_1 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_DIV_4_REST_0_1 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_CRYPTO_0_1 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: LAB3_SYS_MUX3_1_0_2 
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+Wrote  : <C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab3\lab3\lab3.srcs\sources_1\bd\LAB3_SYS\LAB3_SYS.bd> 
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/sim/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd
+add_files -norecurse C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd
+set_property top LAB3_SYS_wrapper [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+generate_target Simulation [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd]
+INFO: [BD 41-1662] The design 'LAB3_SYS.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/sim/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BIN_GRAY_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_REST_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CRYPTO_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX3_1_0 .
+Exporting to file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hw_handoff/LAB3_SYS.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hw_handoff/LAB3_SYS_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.hwdef
+generate_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1866.797 ; gain = 11.320
+export_ip_user_files -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd] -directory C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files -ipstatic_source_dir C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/modelsim} {questa=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/questa} {riviera=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/riviera} {activehdl=C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [BD 41-1662] The design 'LAB3_SYS.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/sim/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd
+Exporting to file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hw_handoff/LAB3_SYS.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hw_handoff/LAB3_SYS_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/LAB3_SYS.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'LAB3_SYS_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj LAB3_SYS_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or2_0_0/sim/CRYPTO_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and2_0_0/sim/CRYPTO_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and3_0_0/sim/CRYPTO_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/77ea/xup_and4.srcs/sources_1/new/xup_and4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and4_3_0/sim/CRYPTO_xup_and4_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and4_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and2_1_0/sim/CRYPTO_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or2_2_0/sim/CRYPTO_xup_or2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and4_8_0/sim/CRYPTO_xup_and4_8_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and4_8_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or3_0_0/sim/CRYPTO_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or3_1_0/sim/CRYPTO_xup_or3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or3_2_0/sim/CRYPTO_xup_or3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or3_3_0/sim/CRYPTO_xup_or3_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_xor2_0_0/sim/CRYPTO_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_xor2_1_0/sim/CRYPTO_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xnor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_xnor2_0_0/sim/CRYPTO_xup_xnor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xnor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_xnor2_1_0/sim/CRYPTO_xup_xnor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xnor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_or2_1_0/sim/CRYPTO_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and2_2_0/sim/CRYPTO_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_and2_3_0/sim/CRYPTO_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_xor2' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ip/BIN_GRAY_xup_xor2_0_0/sim/BIN_GRAY_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ip/BIN_GRAY_xup_xor2_1_0/sim/BIN_GRAY_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xup_xor2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ip/BIN_GRAY_xup_xor2_2_0/sim/BIN_GRAY_xup_xor2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xup_xor2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_xlconcat_0_0/sim/MUX3_1_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3_1_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_xor2' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xup_xor2_0_0/sim/BIN_GRAY_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xup_xor2_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'BIN_GRAY_xup_xor2_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xup_xor2_0_0/sim/BIN_GRAY_xup_xor2_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xup_xor2_1_0/sim/BIN_GRAY_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xup_xor2_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'BIN_GRAY_xup_xor2_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xup_xor2_1_0/sim/BIN_GRAY_xup_xor2_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xup_xor2_2_0/sim/BIN_GRAY_xup_xor2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xup_xor2_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'BIN_GRAY_xup_xor2_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xup_xor2_2_0/sim/BIN_GRAY_xup_xor2_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_xlconcat_0_0/sim/BIN_GRAY_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_DIV_4_REST_0_1/src/DIV_4_REST_xlconcat_0_0/sim/DIV_4_REST_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_REST_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xlconcat_0_0/sim/CRYPTO_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or2' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or2_0_0/sim/CRYPTO_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or2_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or2_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or2_0_0/sim/CRYPTO_xup_or2_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and2' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_0_0/sim/CRYPTO_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and2_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_0_0/sim/CRYPTO_xup_and2_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and3_0_0/sim/CRYPTO_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and3_0_0/sim/CRYPTO_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_inv_0_0/sim/CRYPTO_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_inv_1_0/sim/CRYPTO_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_inv_2_0/sim/CRYPTO_xup_inv_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_inv_3_0/sim/CRYPTO_xup_inv_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/77ea/xup_and4.srcs/sources_1/new/xup_and4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and4
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and4' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/77ea/xup_and4.srcs/sources_1/new/xup_and4.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and4_3_0/sim/CRYPTO_xup_and4_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and4_3_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and4_3_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and4_3_0/sim/CRYPTO_xup_and4_3_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_1_0/sim/CRYPTO_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and2_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_1_0/sim/CRYPTO_xup_and2_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or2_2_0/sim/CRYPTO_xup_or2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or2_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or2_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or2_2_0/sim/CRYPTO_xup_or2_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and4_8_0/sim/CRYPTO_xup_and4_8_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and4_8_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and4_8_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and4_8_0/sim/CRYPTO_xup_and4_8_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_0_0/sim/CRYPTO_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_0_0/sim/CRYPTO_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_1_0/sim/CRYPTO_xup_or3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_1_0/sim/CRYPTO_xup_or3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_2_0/sim/CRYPTO_xup_or3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_2_0/sim/CRYPTO_xup_or3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_3_0/sim/CRYPTO_xup_or3_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or3_3_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or3_3_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or3_3_0/sim/CRYPTO_xup_or3_3_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_xor2' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xor2_0_0/sim/CRYPTO_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xor2_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_xor2_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xor2_0_0/sim/CRYPTO_xup_xor2_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xor2_1_0/sim/CRYPTO_xup_xor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xor2_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_xor2_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xor2_1_0/sim/CRYPTO_xup_xor2_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xnor2
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_xnor2' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/fb55/xup_xnor2.srcs/sources_1/new/xup_xnor2.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xnor2_0_0/sim/CRYPTO_xup_xnor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xnor2_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_xnor2_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xnor2_0_0/sim/CRYPTO_xup_xnor2_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xnor2_1_0/sim/CRYPTO_xup_xnor2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_xnor2_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_xnor2_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_xnor2_1_0/sim/CRYPTO_xup_xnor2_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or2_1_0/sim/CRYPTO_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_or2_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_or2_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_or2_1_0/sim/CRYPTO_xup_or2_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_2_0/sim/CRYPTO_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and2_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_2_0/sim/CRYPTO_xup_and2_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_3_0/sim/CRYPTO_xup_and2_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_and2_3_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_and2_3_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_xup_and2_3_0/sim/CRYPTO_xup_and2_3_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_xlconcat_0_0/sim/MUX3_1_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3_1_xlconcat_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX3_1_xlconcat_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_xlconcat_0_0/sim/MUX3_1_xlconcat_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_0_0/sim/MUX_INDEX_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_inv_1_0/sim/MUX_INDEX_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_and3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_0_0/sim/MUX_INDEX_xup_and3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_1_0/sim/MUX_INDEX_xup_and3_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_and3_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_and3_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_and3_2_0/sim/MUX_INDEX_xup_and3_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or3
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_or3' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/ded9/xup_or3.srcs/sources_1/new/xup_or3.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_INDEX_xup_or3_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'MUX_INDEX_xup_or3_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_xup_or3_0_0/sim/MUX_INDEX_xup_or3_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/DIV_4_REST/ip/DIV_4_REST_xlconcat_0_0/sim/DIV_4_REST_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV_4_REST_xlconcat_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'DIV_4_REST_xlconcat_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/DIV_4_REST/ip/DIV_4_REST_xlconcat_0_0/sim/DIV_4_REST_xlconcat_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xlconcat_0_0/sim/CRYPTO_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xlconcat_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xlconcat_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xlconcat_0_0/sim/CRYPTO_xlconcat_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'xup_inv' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v:5]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_0_0/sim/CRYPTO_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_inv_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_0_0/sim/CRYPTO_xup_inv_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_1_0/sim/CRYPTO_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_1_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_inv_1_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_1_0/sim/CRYPTO_xup_inv_1_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_2_0/sim/CRYPTO_xup_inv_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_2_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_inv_2_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_2_0/sim/CRYPTO_xup_inv_2_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_3_0/sim/CRYPTO_xup_inv_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRYPTO_xup_inv_3_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CRYPTO_xup_inv_3_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_xup_inv_3_0/sim/CRYPTO_xup_inv_3_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ip/BIN_GRAY_xlconcat_0_0/sim/BIN_GRAY_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BIN_GRAY_xlconcat_0_0
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'BIN_GRAY_xlconcat_0_0' [C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ip/BIN_GRAY_xlconcat_0_0/sim/BIN_GRAY_xlconcat_0_0.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj LAB3_SYS_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/DIV_4_REST/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/DIV_4_REST/ip/DIV_4_REST_ATAD_SPLIT_4_0_0/sim/DIV_4_REST_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_REST_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/ip/CRYPTO_ATAD_SPLIT_4_0_0/sim/CRYPTO_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CRYPTO_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/ip/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/ip/BIN_GRAY_ATAD_SPLIT_4_0_0/sim/BIN_GRAY_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIN_GRAY_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ipshared/3164/sim/MUX_INDEX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_1_0/sim/MUX3_1_MUX_INDEX_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_2_0/sim/MUX3_1_MUX_INDEX_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_3_0/sim/MUX3_1_MUX_INDEX_3_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_3_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_MUX_INDEX_0_0/sim/MUX3_1_MUX_INDEX_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX_INDEX/sim/MUX_INDEX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_ATAD_SPLIT_4_0_0/sim/MUX3_1_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_ATAD_SPLIT_4_1_0/sim/MUX3_1_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/ip/MUX3_1_ATAD_SPLIT_4_2_0/sim/MUX3_1_ATAD_SPLIT_4_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_ATAD_SPLIT_4_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/MUX3_1/sim/MUX3_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_ATAD_SPLIT_4_0_0/sim/BIN_GRAY_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIN_GRAY_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ipshared/16d5/sim/BIN_GRAY.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIN_GRAY'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/sim/LAB3_SYS_BIN_GRAY_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB3_SYS_BIN_GRAY_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_DIV_4_REST_0_1/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_DIV_4_REST_0_1/src/DIV_4_REST_ATAD_SPLIT_4_0_0/sim/DIV_4_REST_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_REST_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ipshared/c583/sim/DIV_4_REST.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_REST'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_DIV_4_REST_0_1/sim/LAB3_SYS_DIV_4_REST_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB3_SYS_DIV_4_REST_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_ATAD_SPLIT_4_0_0/sim/CRYPTO_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CRYPTO_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ipshared/da90/sim/CRYPTO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CRYPTO'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/sim/LAB3_SYS_CRYPTO_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB3_SYS_CRYPTO_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/ipshared/0273/sim/ATAD_SPLIT_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_ATAD_SPLIT_4_0_0/sim/MUX3_1_ATAD_SPLIT_4_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_ATAD_SPLIT_4_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_ATAD_SPLIT_4_1_0/sim/MUX3_1_ATAD_SPLIT_4_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_ATAD_SPLIT_4_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_ATAD_SPLIT_4_2_0/sim/MUX3_1_ATAD_SPLIT_4_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_ATAD_SPLIT_4_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/ipshared/3164/sim/MUX_INDEX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/sim/MUX3_1_MUX_INDEX_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/sim/MUX3_1_MUX_INDEX_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/sim/MUX3_1_MUX_INDEX_3_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_3_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ATAD_SPLIT_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_ATAD_SPLIT_2_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/sim/MUX3_1_MUX_INDEX_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_MUX_INDEX_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ipshared/3b28/sim/MUX3_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/sim/LAB3_SYS_MUX3_1_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB3_SYS_MUX3_1_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/LAB3_SYS/sim/LAB3_SYS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB3_SYS'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/DIV_4_REST/sim/DIV_4_REST.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_REST'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/sim/CRYPTO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CRYPTO'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.ip_user_files/bd/BIN_GRAY/sim/BIN_GRAY.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIN_GRAY'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/DIV_4_REST/hdl/DIV_4_REST_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DIV_4_REST_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/CRYPTO/hdl/CRYPTO_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CRYPTO_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIN_GRAY_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_INDEX_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX3_1_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB3_SYS_wrapper'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:45 . Memory (MB): peak = 1878.961 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '46' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim'
+"xelab -wto 22d5928016eb4450b29a5752746c15fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot LAB3_SYS_wrapper_behav xil_defaultlib.LAB3_SYS_wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 22d5928016eb4450b29a5752746c15fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot LAB3_SYS_wrapper_behav xil_defaultlib.LAB3_SYS_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture bin_gray_atad_split_4_0_0_arch of entity xil_defaultlib.BIN_GRAY_ATAD_SPLIT_4_0_0 [bin_gray_atad_split_4_0_0_defaul...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.BIN_GRAY_xlconcat_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.BIN_GRAY_xup_xor2_0_0
+Compiling module xil_defaultlib.BIN_GRAY_xup_xor2_1_0
+Compiling module xil_defaultlib.BIN_GRAY_xup_xor2_2_0
+Compiling architecture structure of entity xil_defaultlib.BIN_GRAY [bin_gray_default]
+Compiling architecture lab3_sys_bin_gray_0_1_arch of entity xil_defaultlib.LAB3_SYS_BIN_GRAY_0_1 [lab3_sys_bin_gray_0_1_default]
+Compiling architecture crypto_atad_split_4_0_0_arch of entity xil_defaultlib.CRYPTO_ATAD_SPLIT_4_0_0 [crypto_atad_split_4_0_0_default]
+Compiling module xil_defaultlib.CRYPTO_xlconcat_0_0
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.CRYPTO_xup_and2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_and2_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_and2_2_0
+Compiling module xil_defaultlib.CRYPTO_xup_and2_3_0
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.CRYPTO_xup_and3_0_0
+Compiling module xil_defaultlib.xup_and4
+Compiling module xil_defaultlib.CRYPTO_xup_and4_3_0
+Compiling module xil_defaultlib.CRYPTO_xup_and4_8_0
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.CRYPTO_xup_inv_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_inv_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_inv_2_0
+Compiling module xil_defaultlib.CRYPTO_xup_inv_3_0
+Compiling module xil_defaultlib.xup_or2
+Compiling module xil_defaultlib.CRYPTO_xup_or2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_or2_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_or2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.CRYPTO_xup_or3_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_or3_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_or3_2_0
+Compiling module xil_defaultlib.CRYPTO_xup_or3_3_0
+Compiling module xil_defaultlib.xup_xnor2
+Compiling module xil_defaultlib.CRYPTO_xup_xnor2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_xnor2_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_xor2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_xor2_1_0
+Compiling architecture structure of entity xil_defaultlib.CRYPTO [crypto_default]
+Compiling architecture lab3_sys_crypto_0_1_arch of entity xil_defaultlib.LAB3_SYS_CRYPTO_0_1 [lab3_sys_crypto_0_1_default]
+Compiling architecture div_4_rest_atad_split_4_0_0_arch of entity xil_defaultlib.DIV_4_REST_ATAD_SPLIT_4_0_0 [div_4_rest_atad_split_4_0_0_defa...]
+Compiling module xil_defaultlib.DIV_4_REST_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.DIV_4_REST [div_4_rest_default]
+Compiling architecture lab3_sys_div_4_rest_0_1_arch of entity xil_defaultlib.LAB3_SYS_DIV_4_REST_0_1 [lab3_sys_div_4_rest_0_1_default]
+Compiling architecture mux3_1_atad_split_4_0_0_arch of entity xil_defaultlib.MUX3_1_ATAD_SPLIT_4_0_0 [mux3_1_atad_split_4_0_0_default]
+Compiling architecture mux3_1_atad_split_4_1_0_arch of entity xil_defaultlib.MUX3_1_ATAD_SPLIT_4_1_0 [mux3_1_atad_split_4_1_0_default]
+Compiling architecture mux3_1_atad_split_4_2_0_arch of entity xil_defaultlib.MUX3_1_ATAD_SPLIT_4_2_0 [mux3_1_atad_split_4_2_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_2 [atad_split_2_default]
+Compiling architecture mux_index_atad_split_2_0_0_arch of entity xil_defaultlib.MUX_INDEX_ATAD_SPLIT_2_0_0 [mux_index_atad_split_2_0_0_defau...]
+Compiling module xil_defaultlib.MUX_INDEX_xup_and3_0_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_and3_1_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_and3_2_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_inv_0_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_inv_1_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_or3_0_0
+Compiling architecture structure of entity xil_defaultlib.MUX_INDEX [mux_index_default]
+Compiling architecture mux3_1_mux_index_0_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_0_0 [mux3_1_mux_index_0_0_default]
+Compiling architecture mux3_1_mux_index_1_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_1_0 [mux3_1_mux_index_1_0_default]
+Compiling architecture mux3_1_mux_index_2_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_2_0 [mux3_1_mux_index_2_0_default]
+Compiling architecture mux3_1_mux_index_3_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_3_0 [mux3_1_mux_index_3_0_default]
+Compiling module xil_defaultlib.MUX3_1_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.MUX3_1 [mux3_1_default]
+Compiling architecture lab3_sys_mux3_1_0_1_arch of entity xil_defaultlib.LAB3_SYS_MUX3_1_0_1 [lab3_sys_mux3_1_0_1_default]
+Compiling architecture structure of entity xil_defaultlib.LAB3_SYS [lab3_sys_default]
+Compiling architecture structure of entity xil_defaultlib.lab3_sys_wrapper
+Built simulation snapshot LAB3_SYS_wrapper_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim/xsim.dir/LAB3_SYS_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim/xsim.dir/LAB3_SYS_wrapper_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Nov  4 18:39:09 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  4 18:39:09 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1878.961 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "LAB3_SYS_wrapper_behav -key {Behavioral:sim_1:Functional:LAB3_SYS_wrapper} -tclbatch {LAB3_SYS_wrapper.tcl} -protoinst "protoinst_files/MUX_INDEX.protoinst" -protoinst "protoinst_files/MUX3_1.protoinst" -protoinst "protoinst_files/LAB3_SYS.protoinst" -protoinst "protoinst_files/DIV_4_REST.protoinst" -protoinst "protoinst_files/CRYPTO.protoinst" -protoinst "protoinst_files/BIN_GRAY.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX_INDEX.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/MUX3_1.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/LAB3_SYS.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/DIV_4_REST.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/CRYPTO.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/BIN_GRAY.protoinst
+Time resolution is 1 ps
+source LAB3_SYS_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'LAB3_SYS_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:01:17 . Memory (MB): peak = 1904.914 ; gain = 26.484
+add_force {/LAB3_SYS_wrapper/A} -radix hex {a 0ns}
+add_force {/LAB3_SYS_wrapper/B} -radix hex {b 0ns}
+add_force {/LAB3_SYS_wrapper/C} -radix hex {c 0ns}
+add_force {/LAB3_SYS_wrapper/SEL[0]} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/LAB3_SYS_wrapper/SEL[1]} -radix hex {0 0ns} {1 25000ps} -repeat_every 50000ps
+run 50 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1904.914 ; gain = 0.000
+launch_runs synth_1 -jobs 2
+INFO: [BD 41-1662] The design 'LAB3_SYS.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/sim/LAB3_SYS.vhd
+VHDL Output written to : C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BIN_GRAY_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DIV_4_REST_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block CRYPTO_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX3_1_0 .
+Exporting to file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hw_handoff/LAB3_SYS.hwh
+Generated Block Design Tcl file C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/hw_handoff/LAB3_SYS_bd.tcl
+Generated Hardware Definition File C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.srcs/sources_1/bd/LAB3_SYS/synth/LAB3_SYS.hwdef
+[Wed Nov  4 18:40:35 2020] Launched DIV_4_REST_ATAD_SPLIT_4_0_0_synth_1, CRYPTO_ATAD_SPLIT_4_0_0_synth_1, CRYPTO_xup_or2_0_0_synth_1, CRYPTO_xup_and2_0_0_synth_1, CRYPTO_xup_and3_0_0_synth_1, CRYPTO_xup_and4_3_0_synth_1, CRYPTO_xup_and2_1_0_synth_1, CRYPTO_xup_or2_2_0_synth_1, CRYPTO_xup_and4_8_0_synth_1, CRYPTO_xup_or3_0_0_synth_1, CRYPTO_xup_or3_1_0_synth_1, CRYPTO_xup_or3_2_0_synth_1, CRYPTO_xup_or3_3_0_synth_1, CRYPTO_xup_xor2_0_0_synth_1, CRYPTO_xup_xor2_1_0_synth_1, CRYPTO_xup_xnor2_0_0_synth_1, CRYPTO_xup_xnor2_1_0_synth_1, CRYPTO_xup_or2_1_0_synth_1, CRYPTO_xup_and2_2_0_synth_1, CRYPTO_xup_and2_3_0_synth_1, LAB3_SYS_DIV_4_REST_0_1_synth_1, LAB3_SYS_MUX3_1_0_1_synth_1, LAB3_SYS_CRYPTO_0_1_synth_1, LAB3_SYS_BIN_GRAY_0_1_synth_1...
+Run output will be captured here:
+DIV_4_REST_ATAD_SPLIT_4_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/DIV_4_REST_ATAD_SPLIT_4_0_0_synth_1/runme.log
+CRYPTO_ATAD_SPLIT_4_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_ATAD_SPLIT_4_0_0_synth_1/runme.log
+CRYPTO_xup_or2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or2_0_0_synth_1/runme.log
+CRYPTO_xup_and2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and2_0_0_synth_1/runme.log
+CRYPTO_xup_and3_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and3_0_0_synth_1/runme.log
+CRYPTO_xup_and4_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and4_3_0_synth_1/runme.log
+CRYPTO_xup_and2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and2_1_0_synth_1/runme.log
+CRYPTO_xup_or2_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or2_2_0_synth_1/runme.log
+CRYPTO_xup_and4_8_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and4_8_0_synth_1/runme.log
+CRYPTO_xup_or3_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or3_0_0_synth_1/runme.log
+CRYPTO_xup_or3_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or3_1_0_synth_1/runme.log
+CRYPTO_xup_or3_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or3_2_0_synth_1/runme.log
+CRYPTO_xup_or3_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or3_3_0_synth_1/runme.log
+CRYPTO_xup_xor2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_xor2_0_0_synth_1/runme.log
+CRYPTO_xup_xor2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_xor2_1_0_synth_1/runme.log
+CRYPTO_xup_xnor2_0_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_xnor2_0_0_synth_1/runme.log
+CRYPTO_xup_xnor2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_xnor2_1_0_synth_1/runme.log
+CRYPTO_xup_or2_1_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_or2_1_0_synth_1/runme.log
+CRYPTO_xup_and2_2_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and2_2_0_synth_1/runme.log
+CRYPTO_xup_and2_3_0_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/CRYPTO_xup_and2_3_0_synth_1/runme.log
+LAB3_SYS_DIV_4_REST_0_1_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/LAB3_SYS_DIV_4_REST_0_1_synth_1/runme.log
+LAB3_SYS_MUX3_1_0_1_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/LAB3_SYS_MUX3_1_0_1_synth_1/runme.log
+LAB3_SYS_CRYPTO_0_1_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/LAB3_SYS_CRYPTO_0_1_synth_1/runme.log
+LAB3_SYS_BIN_GRAY_0_1_synth_1: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/LAB3_SYS_BIN_GRAY_0_1_synth_1/runme.log
+[Wed Nov  4 18:40:45 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 1904.914 ; gain = 0.000
+launch_runs impl_1 -jobs 2
+[Wed Nov  4 18:47:28 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Nov  4 18:49:23 2020] Launched impl_1...
+Run output will be captured here: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab3/lab3/lab3.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 18:51:26 2020...

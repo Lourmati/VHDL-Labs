@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1604533648">
+  <File Type="BITSTR-BMM" Name="LAB3_SYS_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LAB3_SYS_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="LAB3_SYS_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="LAB3_SYS_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="LAB3_SYS_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="LAB3_SYS_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="LAB3_SYS_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="LAB3_SYS_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="LAB3_SYS_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="LAB3_SYS_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="LAB3_SYS_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="LAB3_SYS_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="LAB3_SYS_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LAB3_SYS_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LAB3_SYS_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LAB3_SYS_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LAB3_SYS_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LAB3_SYS_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LAB3_SYS_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LAB3_SYS_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LAB3_SYS_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LAB3_SYS_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="LAB3_SYS_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LAB3_SYS_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="LAB3_SYS_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LAB3_SYS_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LAB3_SYS_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LAB3_SYS_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="LAB3_SYS_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="LAB3_SYS_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LAB3_SYS_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="LAB3_SYS_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LAB3_SYS_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LAB3_SYS_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LAB3_SYS_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="LAB3_SYS_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="LAB3_SYS_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LAB3_SYS_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LAB3_SYS_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LAB3_SYS_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LAB3_SYS_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LAB3_SYS_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="LAB3_SYS_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LAB3_SYS_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LAB3_SYS_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LAB3_SYS_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LAB3_SYS_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="LAB3_SYS_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="LAB3_SYS_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="LAB3_SYS_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="LAB3_SYS_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LAB3_SYS_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LAB3_SYS_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LAB3_SYS_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LAB3_SYS_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LAB3_SYS_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="LAB3_SYS_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="LAB3_SYS_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="LAB3_SYS_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="LAB3_SYS_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="LAB3_SYS_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="LAB3_SYS_wrapper.nky"/>
+  <File Type="PDI-FILE" Name="LAB3_SYS_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="LAB3_SYS_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="LAB3_SYS_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="LAB3_SYS_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="LAB3_SYS_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="LAB3_SYS_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="LAB3_SYS_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="LAB3_SYS_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="LAB3_SYS_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="LAB3_SYS_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="LAB3_SYS_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/MUX_INDEX/MUX_INDEX.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MUX3_1/MUX3_1.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/LAB3_SYS/LAB3_SYS.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DIV_4_REST/DIV_4_REST.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/CRYPTO/CRYPTO.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BIN_GRAY/BIN_GRAY.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DIV_4_REST/hdl/DIV_4_REST_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/CRYPTO/hdl/CRYPTO_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BIN_GRAY/hdl/BIN_GRAY_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MUX_INDEX/hdl/MUX_INDEX_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MUX3_1/hdl/MUX3_1_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/LAB3_SYS/hdl/LAB3_SYS_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LAB3_SYS_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../labo3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="DIV_4_REST_ATAD_SPLIT_4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_ATAD_SPLIT_4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_xup_and3_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_xup_and3_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_xup_inv_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and4_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_xnor2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and4_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or3_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_xup_or3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_and2_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or3_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_or3_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LAB3_SYS_MUX3_1_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_xor2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_xor2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="CRYPTO_xup_xnor2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_ATAD_SPLIT_2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX_INDEX_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BIN_GRAY_ATAD_SPLIT_4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LAB3_SYS_BIN_GRAY_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BIN_GRAY_xup_xor2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BIN_GRAY_xup_xor2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BIN_GRAY_xup_xor2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX3_1_MUX_INDEX_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX3_1_MUX_INDEX_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX3_1_MUX_INDEX_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MUX3_1_MUX_INDEX_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LAB3_SYS_DIV_4_REST_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="LAB3_SYS_CRYPTO_0_1"/>
+</GenRun>

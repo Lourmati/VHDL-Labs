@@ -1,0 +1,86 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 22d5928016eb4450b29a5752746c15fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot LAB3_SYS_wrapper_behav xil_defaultlib.LAB3_SYS_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_4 [atad_split_4_default]
+Compiling architecture bin_gray_atad_split_4_0_0_arch of entity xil_defaultlib.BIN_GRAY_ATAD_SPLIT_4_0_0 [bin_gray_atad_split_4_0_0_defaul...]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat(dout_wi...
+Compiling module xil_defaultlib.BIN_GRAY_xlconcat_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.BIN_GRAY_xup_xor2_0_0
+Compiling module xil_defaultlib.BIN_GRAY_xup_xor2_1_0
+Compiling module xil_defaultlib.BIN_GRAY_xup_xor2_2_0
+Compiling architecture structure of entity xil_defaultlib.BIN_GRAY [bin_gray_default]
+Compiling architecture lab3_sys_bin_gray_0_1_arch of entity xil_defaultlib.LAB3_SYS_BIN_GRAY_0_1 [lab3_sys_bin_gray_0_1_default]
+Compiling architecture crypto_atad_split_4_0_0_arch of entity xil_defaultlib.CRYPTO_ATAD_SPLIT_4_0_0 [crypto_atad_split_4_0_0_default]
+Compiling module xil_defaultlib.CRYPTO_xlconcat_0_0
+Compiling module xil_defaultlib.xup_and2
+Compiling module xil_defaultlib.CRYPTO_xup_and2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_and2_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_and2_2_0
+Compiling module xil_defaultlib.CRYPTO_xup_and2_3_0
+Compiling module xil_defaultlib.xup_and3
+Compiling module xil_defaultlib.CRYPTO_xup_and3_0_0
+Compiling module xil_defaultlib.xup_and4
+Compiling module xil_defaultlib.CRYPTO_xup_and4_3_0
+Compiling module xil_defaultlib.CRYPTO_xup_and4_8_0
+Compiling module xil_defaultlib.xup_inv
+Compiling module xil_defaultlib.CRYPTO_xup_inv_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_inv_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_inv_2_0
+Compiling module xil_defaultlib.CRYPTO_xup_inv_3_0
+Compiling module xil_defaultlib.xup_or2
+Compiling module xil_defaultlib.CRYPTO_xup_or2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_or2_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_or2_2_0
+Compiling module xil_defaultlib.xup_or3
+Compiling module xil_defaultlib.CRYPTO_xup_or3_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_or3_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_or3_2_0
+Compiling module xil_defaultlib.CRYPTO_xup_or3_3_0
+Compiling module xil_defaultlib.xup_xnor2
+Compiling module xil_defaultlib.CRYPTO_xup_xnor2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_xnor2_1_0
+Compiling module xil_defaultlib.CRYPTO_xup_xor2_0_0
+Compiling module xil_defaultlib.CRYPTO_xup_xor2_1_0
+Compiling architecture structure of entity xil_defaultlib.CRYPTO [crypto_default]
+Compiling architecture lab3_sys_crypto_0_1_arch of entity xil_defaultlib.LAB3_SYS_CRYPTO_0_1 [lab3_sys_crypto_0_1_default]
+Compiling architecture div_4_rest_atad_split_4_0_0_arch of entity xil_defaultlib.DIV_4_REST_ATAD_SPLIT_4_0_0 [div_4_rest_atad_split_4_0_0_defa...]
+Compiling module xil_defaultlib.DIV_4_REST_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.DIV_4_REST [div_4_rest_default]
+Compiling architecture lab3_sys_div_4_rest_0_1_arch of entity xil_defaultlib.LAB3_SYS_DIV_4_REST_0_1 [lab3_sys_div_4_rest_0_1_default]
+Compiling architecture mux3_1_atad_split_4_0_0_arch of entity xil_defaultlib.MUX3_1_ATAD_SPLIT_4_0_0 [mux3_1_atad_split_4_0_0_default]
+Compiling architecture mux3_1_atad_split_4_1_0_arch of entity xil_defaultlib.MUX3_1_ATAD_SPLIT_4_1_0 [mux3_1_atad_split_4_1_0_default]
+Compiling architecture mux3_1_atad_split_4_2_0_arch of entity xil_defaultlib.MUX3_1_ATAD_SPLIT_4_2_0 [mux3_1_atad_split_4_2_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.ATAD_SPLIT_2 [atad_split_2_default]
+Compiling architecture mux_index_atad_split_2_0_0_arch of entity xil_defaultlib.MUX_INDEX_ATAD_SPLIT_2_0_0 [mux_index_atad_split_2_0_0_defau...]
+Compiling module xil_defaultlib.MUX_INDEX_xup_and3_0_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_and3_1_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_and3_2_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_inv_0_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_inv_1_0
+Compiling module xil_defaultlib.MUX_INDEX_xup_or3_0_0
+Compiling architecture structure of entity xil_defaultlib.MUX_INDEX [mux_index_default]
+Compiling architecture mux3_1_mux_index_0_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_0_0 [mux3_1_mux_index_0_0_default]
+Compiling architecture mux3_1_mux_index_1_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_1_0 [mux3_1_mux_index_1_0_default]
+Compiling architecture mux3_1_mux_index_2_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_2_0 [mux3_1_mux_index_2_0_default]
+Compiling architecture mux3_1_mux_index_3_0_arch of entity xil_defaultlib.MUX3_1_MUX_INDEX_3_0 [mux3_1_mux_index_3_0_default]
+Compiling module xil_defaultlib.MUX3_1_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.MUX3_1 [mux3_1_default]
+Compiling architecture lab3_sys_mux3_1_0_1_arch of entity xil_defaultlib.LAB3_SYS_MUX3_1_0_1 [lab3_sys_mux3_1_0_1_default]
+Compiling architecture structure of entity xil_defaultlib.LAB3_SYS [lab3_sys_default]
+Compiling architecture structure of entity xil_defaultlib.lab3_sys_wrapper
+Built simulation snapshot LAB3_SYS_wrapper_behav

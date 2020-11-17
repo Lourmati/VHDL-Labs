@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/CMP_4B/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../bd/CMP_4B/ip/CMP_4B_ATAD_SPLIT_4_0_0/sim/CMP_4B_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/CMP_4B/ip/CMP_4B_ATAD_SPLIT_4_1_0/sim/CMP_4B_ATAD_SPLIT_4_1_0.vhd" \
+"../../../bd/CMP_4B/sim/CMP_4B.vhd" \
+
+nosort

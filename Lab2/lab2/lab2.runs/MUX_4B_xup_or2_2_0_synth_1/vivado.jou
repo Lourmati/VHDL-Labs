@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 17 20:34:12 2020
+# Process ID: 10636
+# Current directory: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_2_0_synth_1
+# Command line: vivado.exe -log MUX_4B_xup_or2_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX_4B_xup_or2_2_0.tcl
+# Log file: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_2_0_synth_1/MUX_4B_xup_or2_2_0.vds
+# Journal file: C:/Users/Adam/Downloads/INF1500/lab2/lab2.runs/MUX_4B_xup_or2_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MUX_4B_xup_or2_2_0.tcl -notrace

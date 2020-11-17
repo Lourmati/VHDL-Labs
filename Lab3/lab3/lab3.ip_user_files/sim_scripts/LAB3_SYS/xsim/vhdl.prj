@@ -1,0 +1,26 @@
+vhdl xil_defaultlib  \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/ipshared/0273/sim/ATAD_SPLIT_4.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/src/BIN_GRAY_ATAD_SPLIT_4_0_0/sim/BIN_GRAY_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/LAB3_SYS/ipshared/16d5/sim/BIN_GRAY.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_BIN_GRAY_0_1/sim/LAB3_SYS_BIN_GRAY_0_1.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_DIV_4_REST_0_1/src/DIV_4_REST_ATAD_SPLIT_4_0_0/sim/DIV_4_REST_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/LAB3_SYS/ipshared/c583/sim/DIV_4_REST.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_DIV_4_REST_0_1/sim/LAB3_SYS_DIV_4_REST_0_1.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/src/CRYPTO_ATAD_SPLIT_4_0_0/sim/CRYPTO_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/LAB3_SYS/ipshared/da90/sim/CRYPTO.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_CRYPTO_0_1/sim/LAB3_SYS_CRYPTO_0_1.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_ATAD_SPLIT_4_0_0/sim/MUX3_1_ATAD_SPLIT_4_0_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_ATAD_SPLIT_4_1_0/sim/MUX3_1_ATAD_SPLIT_4_1_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_ATAD_SPLIT_4_2_0/sim/MUX3_1_ATAD_SPLIT_4_2_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/ipshared/4947/sim/ATAD_SPLIT_2.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/src/MUX_INDEX_ATAD_SPLIT_2_0_0/sim/MUX_INDEX_ATAD_SPLIT_2_0_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/ipshared/3164/sim/MUX_INDEX.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_1_0/sim/MUX3_1_MUX_INDEX_1_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_2_0/sim/MUX3_1_MUX_INDEX_2_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_3_0/sim/MUX3_1_MUX_INDEX_3_0.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/src/MUX3_1_MUX_INDEX_0_0/sim/MUX3_1_MUX_INDEX_0_0.vhd" \
+"../../../bd/LAB3_SYS/ipshared/3b28/sim/MUX3_1.vhd" \
+"../../../bd/LAB3_SYS/ip/LAB3_SYS_MUX3_1_0_1/sim/LAB3_SYS_MUX3_1_0_1.vhd" \
+"../../../bd/LAB3_SYS/sim/LAB3_SYS.vhd" \
+
+nosort

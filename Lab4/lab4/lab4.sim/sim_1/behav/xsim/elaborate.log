@@ -1,0 +1,18 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 8f1aba1a64c14d43b35e5ff25e6b9d81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SYSTEM_behav xil_defaultlib.SYSTEM -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture mod_3behave of entity xil_defaultlib.MOD_3 [mod_3_default]
+Compiling architecture cmpbehavioral of entity xil_defaultlib.CMP [cmp_default]
+Compiling architecture mux2_1behavioral of entity xil_defaultlib.MUX2_1 [mux2_1_default]
+Compiling architecture regbehavioral of entity xil_defaultlib.REG [reg_default]
+Compiling architecture systembehavioral of entity xil_defaultlib.system
+Built simulation snapshot SYSTEM_behav

@@ -1,0 +1,7 @@
+Running: xsim.dir/CMP_behav/xsimk.exe -simmode gui -wdb CMP_behav.wdb -simrunnum 0 -socket 55256
+Design successfully loaded
+Design Loading Memory Usage: 5124 KB (Peak: 5124 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 5708 KB (Peak: 5708 KB)
+Simulation CPU Usage: 15 ms

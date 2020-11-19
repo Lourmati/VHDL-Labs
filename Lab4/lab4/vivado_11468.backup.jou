@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov 12 13:38:54 2020
+# Process ID: 11468
+# Current directory: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab4/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11124 C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab4\lab4\lab4.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab4/lab4/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab4/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab4/lab4/lab4.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MOD_3 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source MOD_3.tcl
+add_force {/MOD_3/A} -radix hex {7 0ns}
+add_force {/MOD_3/A[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/MOD_3/A[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/MOD_3/A[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/MOD_3/A[3]} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+add_force {/MOD_3/A[4]} -radix hex {0 0ns} {1 8000ps} -repeat_every 16000ps
+run 16 ns
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CMP [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source CMP.tcl
+add_force {/CMP/A[0]} -radix hex {0 0ns}
+add_force {/CMP/A[4]} -radix hex {0 0ns}
+add_force {/CMP/A[3]} -radix hex {0 0ns}
+add_force {/CMP/A[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/CMP/A[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/CMP/A[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CMP/B} -radix hex {2 0ns}
+run 4 ns
+close_sim
+launch_simulation
+source CMP.tcl
+add_force {/CMP/A[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CMP/A[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/CMP/A[2]} -radix hex {0 0ns}
+add_force {/CMP/A[3]} -radix hex {0 0ns}
+add_force {/CMP/A[4]} -radix hex {0 0ns}
+add_force {/CMP/B} -radix hex {2 0ns}
+run 2 ns
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SYSTEM [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top REG [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source REG.tcl
+add_force {/REG/D} -radix hex {5 0ns}
+add_force {/REG/E} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/REG/D} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/REG/D[0]} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/REG/D[1]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/REG/D[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/REG/E} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+run 8 ns
+close_sim
+launch_simulation
+source REG.tcl
+add_force {/REG/E} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/REG/D[0]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/REG/D[1]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+add_force {/REG/D[2]} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+run 8 ns
+close_sim
+launch_simulation
+source REG.tcl
+add_force {/REG/E} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/REG/D[0]} -radix hex {2 0ns}
+add_force {/REG/D[0]} -radix hex {0 0ns} {1 1000ps} -repeat_every 2000ps
+add_force {/REG/D[1]} -radix hex {0 0ns} {1 4000ps} -repeat_every 8000ps
+add_force {/REG/D[2]} -radix hex {0 0ns} {1 2000ps} -repeat_every 4000ps
+run 8 ns
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top SYSTEM [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source SYSTEM.tcl
+add_force {/SYSTEM/E} -radix hex {0 0ns} {1 12500ps} -repeat_every 25000ps
+add_force {/SYSTEM/SEL} -radix hex {0 0ns} {1 25000ps} -repeat_every 50000ps
+add_force {/SYSTEM/A} -radix hex {A 0ns}
+add_force {/SYSTEM/B} -radix hex {B 0ns}
+run 50 ns
+close_sim

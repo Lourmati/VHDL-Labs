@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CHRONO_VHDL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/PULSE_GEN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PULSE_GEN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/SYSTEM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SYSTEM'

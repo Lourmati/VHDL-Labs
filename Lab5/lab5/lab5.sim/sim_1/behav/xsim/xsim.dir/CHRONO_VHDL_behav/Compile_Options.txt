@@ -1,0 +1,1 @@
+-wto "fb8143bc462b4706b94b280ddc200677" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "CHRONO_VHDL_behav" "xil_defaultlib.CHRONO_VHDL" -log "elaborate.log" 

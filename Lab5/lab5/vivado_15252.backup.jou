@@ -1,0 +1,675 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov 19 14:34:36 2020
+# Process ID: 15252
+# Current directory: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7144 C:\Users\Adam\Downloads\INF1500\INF1500_2034584_2081643_Lab5\lab5\lab5.xpr
+# Log file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/vivado.log
+# Journal file: C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.xpr
+close [ open C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO_VHDL.vhd w ]
+add_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO_VHDL.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO_VHDL.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO_VHDL.vhd
+close [ open C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd w ]
+add_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd
+remove_files  C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd
+file delete -force C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd
+close [ open C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd w ]
+add_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/CHRONO.vhd
+close [ open C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/PULSE_GEN.vhd w ]
+add_files C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.srcs/sources_1/new/PULSE_GEN.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CHRONO_VHDL [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 10 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+close_project
+open_project C:/Users/Adam/Downloads/INF1500/INF1500_2034584_2081643_Lab5/lab5/lab5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/RESET} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+restart
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 100 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 1 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 1 ns
+run 1 ns
+run 1 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 1 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 1 ns
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 1 ns
+run 1 ns
+run 1 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+run 1 ns
+close_sim
+launch_simulation
+source CHRONO_VHDL.tcl
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 100 ns
+restart
+add_force {/CHRONO_VHDL/CLK} -radix hex {0 0ns} {1 500ps} -repeat_every 1000ps
+add_force {/CHRONO_VHDL/RESET} -radix hex {0 0ns}
+add_force {/CHRONO_VHDL/START} -radix hex {1 0ns}
+run 1000 ns
+add_force {/CHRONO_VHDL/START} -radix hex {0 0ns}
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
